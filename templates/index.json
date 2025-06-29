@@ -13,10 +13,10 @@
       "type": "hero-video",
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
-        "title": "Bring your\nbrand to life.",
+        "title": "50% OFF",
         "title_size": 80,
-        "subheading": "Seamless hero videos",
-        "link_text": "Optional button",
+        "subheading": "Limited-Time Summer Sale – Up to 50% Off",
+        "link_text": "SHOP NOW",
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
