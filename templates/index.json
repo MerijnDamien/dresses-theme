@@ -30,7 +30,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Now fully on trend",
-        "home_featured_products": "fermeture-vente",
+        "home_featured_products": "",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
@@ -44,16 +44,16 @@
         "collection_xhPUcY": {
           "type": "collection",
           "settings": {
-            "collection": "hauts",
-            "title": "Hauts",
+            "collection": "",
+            "title": "Dresses",
             "focal_point": "center center"
           }
         },
         "collection_HHRaQ6": {
           "type": "collection",
           "settings": {
-            "collection": "robes",
-            "title": "robes",
+            "collection": "",
+            "title": "Dresses 2",
             "focal_point": "center center"
           }
         },
@@ -61,7 +61,7 @@
           "type": "collection",
           "settings": {
             "collection": "bas-jupes",
-            "title": "bas & jupes",
+            "title": "Dresses 3",
             "focal_point": "center center"
           }
         },
@@ -69,7 +69,7 @@
           "type": "collection",
           "settings": {
             "collection": "accessoires",
-            "title": "accessoires",
+            "title": "Dresses 4",
             "focal_point": "center center"
           }
         }
@@ -146,12 +146,13 @@
     },
     "text_and_image_BLwVCE": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
+        "image": "shopify://shop_images/image_2_5caa8617-e90b-44e5-9bde-53fabef1e0b5.webp",
         "image_mask": "none",
+        "image2": "shopify://shop_images/francis-maxi-dress-blush-dress-babyboo-fashion-1171634230.webp",
         "image2_mask": "none",
         "subtitle": "VERHEF JE GARDEROBE",
-        "title": "MET DE GLOEDNIEUWE CASUAL ELASTISCHE BROEK",
+        "title": "",
         "text": "<p>Introductie van de ideale broek met een ultrazachte textuur en stretchstof, die een slanke en strakke styling biedt en naadloos combineert met elke outfit.</p>",
         "button_label": "",
         "button_link": "",
@@ -167,6 +168,7 @@
     },
     "background_image_text_QNDHUA": {
       "type": "background-image-text",
+      "disabled": true,
       "custom_css": [
         ".background-media-text .background-media-text__inner {display: flex; align-items: center;}"
       ],
