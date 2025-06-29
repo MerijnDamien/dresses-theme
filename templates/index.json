@@ -34,7 +34,7 @@
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
-        "view_all": true,
+        "view_all": false,
         "divider": false
       }
     },
@@ -163,7 +163,7 @@
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
-        "view_all": false,
+        "view_all": true,
         "divider": false
       }
     },
