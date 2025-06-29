@@ -332,7 +332,7 @@
         ".index-section {margin: 55px 0;}"
       ],
       "settings": {
-        "product_recommendations_heading": "les incontournables de notre boutique",
+        "product_recommendations_heading": "You May Also Like...",
         "related_count": 5,
         "products_per_row": 5
       }
