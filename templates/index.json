@@ -171,42 +171,42 @@
     "text_with_icons_fWXNDe": {
       "type": "text-with-icons",
       "blocks": {
-        "text_block_aXdQUe": {
-          "type": "text_block",
-          "settings": {
-            "icon": "globe",
-            "title": "Garantie de Remboursement",
-            "text": "<p>Nous offrons une garantie de remboursement à 100 % dans les 30 jours suivant la réception de votre commande.</p>"
-          }
-        },
         "text_block_gCMfnD": {
           "type": "text_block",
           "settings": {
             "icon": "truck",
-            "title": "livraison gratuite",
-            "text": "<p>Nous offrons la livraison gratuite partout au Québec<strong> aujourd'hui seulement</strong>.</p>"
+            "title": "Free shipping",
+            "text": "<p>Across the United States.</p>"
+          }
+        },
+        "text_block_aXdQUe": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "money back",
+            "text": "<p>30-days return policy.</p>"
           }
         },
         "text_block_XY3ck9": {
           "type": "text_block",
           "settings": {
-            "icon": "envelope",
-            "title": "SERVICE CLIENTÈLE 24/7",
-            "text": "<p>Si vous avez des questions, des commentaires ou des préoccupations concernant votre commande, ne vous inquiétez pas ! Notre service clientèle est là pour vous aider.</p>"
+            "icon": "sales-tag",
+            "title": "Quality guarantee",
+            "text": "<p>Made to feel as good as you look.</p>"
           }
         },
         "text_block_p7J4TB": {
           "type": "text_block",
           "settings": {
-            "icon": "shield",
-            "title": "PAIEMENT SÉCURISÉ",
-            "text": "<p>Vos informations de paiement sont traitées en toute sécurité.</p>"
+            "icon": "chat",
+            "title": "24/7 support",
+            "text": "<p>Always here to help.</p>"
           }
         }
       },
       "block_order": [
-        "text_block_aXdQUe",
         "text_block_gCMfnD",
+        "text_block_aXdQUe",
         "text_block_XY3ck9",
         "text_block_p7J4TB"
       ],
