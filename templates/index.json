@@ -101,19 +101,6 @@
         "enable_gutter": true
       }
     },
-    "featured_collection_rQff8k": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
-      }
-    },
     "scrolling_text_qcALDx": {
       "type": "scrolling-text",
       "disabled": true,
@@ -166,6 +153,18 @@
         "parallax": true,
         "parallax_direction": "top",
         "lazyload_images": true
+      }
+    },
+    "featured_collection_rQff8k": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Find Your Favorite Dress...",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
       }
     },
     "text_with_icons_fWXNDe": {
@@ -233,10 +232,10 @@
     "featured_collection_bxLbCR",
     "featured_collections_WGkLAc",
     "featured_collections_ctkUxd",
-    "featured_collection_rQff8k",
     "scrolling_text_qcALDx",
     "text_and_image_BLwVCE",
     "background_image_text_QNDHUA",
+    "featured_collection_rQff8k",
     "text_with_icons_fWXNDe"
   ]
 }
