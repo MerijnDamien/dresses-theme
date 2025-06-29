@@ -144,7 +144,6 @@
     },
     "scrolling_text_yqNX4Q": {
       "type": "scrolling-text",
-      "disabled": true,
       "settings": {
         "text": "Join Thousands Who Love Aussie Style!",
         "link": "",
@@ -164,121 +163,80 @@
     "testimonials_U6jWLR": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_e6XqQX": {
+        "testimonial_8PteBh": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>J’ai commandé un pull comme surprise pour l’anniversaire de ma sœur. Elle a adoré ! </p>",
-            "author": "Olivia S.",
-            "author_info": "Sherebrooke, Quebec"
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
-        "testimonial_j8MUTP": {
+        "testimonial_qTYWbY": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>J’ai accidentellement commandé la mauvaise taille, mais Sarah du service à la clientèle l’a réparé en quelques minutes. Très heureux!</p>",
-            "author": "Charlotte L.",
-            "author_info": "Montréal, Canada"
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
-        "testimonial_Xtyfzd": {
+        "testimonial_tLHexG": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>L’expédition a été incroyablement rapide, et mon nouveau sac est encore mieux en personne.</p>",
-            "author": "Isla I.",
-            "author_info": "Terrebonne, CA"
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
-        "testimonial_MUppTr": {
+        "testimonial_gzjPQX": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>J’ai eu une question sur le suivi de ma commande, et le service à la clientèle a répondu presque instantanément. Ma veste est arrivée peu après, et l’ajustement est parfait.</p>",
-            "author": "Charlotte S.",
-            "author_info": "Saguenay, Quebec"
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         },
-        "testimonial_pVFtbi": {
+        "testimonial_ULV7PN": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Il y avait un petit problème avec ma commande, mais Liam de l’équipe de soutien l’a résolu tout de suite. Je suis ravie de mes nouvelles chaussures et le service était excellent!</p>",
-            "author": "Olivia L.",
-            "author_info": "Levis, Quebec"
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
           }
         }
       },
       "block_order": [
-        "testimonial_e6XqQX",
-        "testimonial_j8MUTP",
-        "testimonial_Xtyfzd",
-        "testimonial_MUppTr",
-        "testimonial_pVFtbi"
+        "testimonial_8PteBh",
+        "testimonial_qTYWbY",
+        "testimonial_tLHexG",
+        "testimonial_gzjPQX",
+        "testimonial_ULV7PN"
       ],
       "custom_css": [
         ".testimonials-slide {padding: 15px 0 30px;}",
         ".testimonials-section {padding: 32.5px 0;}"
       ],
       "settings": {
-        "title": "Ce que disent nos clients",
+        "title": "what our customer says!",
         "align_text": "center",
         "round_images": true,
         "color_background": "#f9f9f9",
         "color_text": "#1c1d1d"
       }
     },
-    "rich_text_fBPQ6b": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Kjp9FR": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Spécifications du produit"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Kjp9FR"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".bg-product-specificate h2 {text-transform: none;}",
-        "@media (max-width: 769px) {.bg-product-specificate h2 {text-transform: none; font-size: 18px; font-weight: 700; }}"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "background_image_text_kEcQiy": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "MODE QUÉBÉCOISE",
-        "title": "AU CŒUR DE LA BELLE PROVINCE",
-        "text": "<p>Apportez à votre garde-robe un mélange unique de raffinement urbain et de charme naturel inspiré des quatre coins du Québec. Nous offrons une mode élégante et sans effort, née du souffle créatif de Montréal, du charme intemporel de Québec et de la douceur rustique de nos régions. Adoptez l’esprit québécois dans chaque morceau.</p>",
-        "button_label": "",
-        "button_link": "",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
-        "parallax": true,
-        "parallax_direction": "top",
-        "lazyload_images": true
-      }
-    },
     "text_and_image_9YRb8F": {
       "type": "text-and-image",
-      "disabled": true,
       "settings": {
+        "image": "shopify://shop_images/3_1000x_32955e2c-781e-4e04-b83e-88389a09b117.webp",
         "image_mask": "portrait",
         "image2_mask": "portrait",
-        "subtitle": "Oceana FASHION",
-        "title": "FROM THE HEART OF NOOSA",
-        "text": "<p>Infuse your wardrobe with the effortless charm of Australia. Discover sustainable, chic fashion inspired by sun-kissed beaches and the rugged Outback. Embrace the Aussie spirit with every piece.</p>",
+        "subtitle": "",
+        "title": "30 day money back guarantee",
+        "text": "<p>We love our products and we're sure you'll love them as much as we do! That's why we offer a risk-free 30-day money-back guarantee. If you are not satisfied with our product, we will give you your money back.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -395,8 +353,6 @@
     "scrolling_text_yqNX4Q",
     "sub",
     "testimonials_U6jWLR",
-    "rich_text_fBPQ6b",
-    "background_image_text_kEcQiy",
     "text_and_image_9YRb8F",
     "recently-viewed",
     "collection-return",
