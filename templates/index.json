@@ -69,7 +69,7 @@
         "collection_ThBLbb"
       ],
       "settings": {
-        "title": "Magasinez par collection",
+        "title": "",
         "divider": false,
         "per_row": 4,
         "enable_gutter": true
