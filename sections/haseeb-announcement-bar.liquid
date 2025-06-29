@@ -1,0 +1,135 @@
+<style>
+  .cstm-bf-timer-bar {
+    padding: 10px 0;
+    text-align: center;
+    background: {{ section.settings.background_color }};
+  }
+  .cstm-bf-timer-bar-content p {
+    margin: 0;
+    font-size: 16px;
+    color: {{ section.settings.text_color }};
+  }
+  .bf-timer {
+    font-weight: bold;
+    color: {{ section.settings.timer_color }};
+  }
+</style>
+
+<div class="cstm-bf-timer-bar">
+  <div class="page-width">
+    <div class="cstm-bf-timer-bar-content">
+      <p>
+        {{ section.settings.before_text }}
+        <span class="bf-timer" id="bf-sale-timer">00:00:00</span>
+        {{ section.settings.after_text }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Function to get a cookie by name
+  function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+  }
+
+  // Function to set a cookie
+  function setCookie(name, value, hours) {
+    const date = new Date();
+    date.setTime(date.getTime() + (hours * 60 * 60 * 1000)); // Convert hours to milliseconds
+    document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
+  }
+
+  // Function to start the timer
+  function startTimer(duration, display) {
+    let timer = duration; // Duration in seconds
+    let hours, minutes, seconds;
+
+    const interval = setInterval(function () {
+      hours = Math.floor(timer / 3600);
+      minutes = Math.floor((timer % 3600) / 60);
+      seconds = Math.floor(timer % 60);
+
+      hours = hours < 10 ? "0" + hours : hours;
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      display.textContent = hours + ":" + minutes + ":" + seconds;
+
+      // Save the remaining time in a cookie
+      setCookie('bf_timer', timer, 24); // Save for 24 hours
+
+      if (--timer < 0) {
+        clearInterval(interval); // Stop the timer when it reaches 0
+        display.textContent = "00:00:00";
+        document.cookie = 'bf_timer=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'; // Clear the cookie
+      }
+    }, 1000);
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const display = document.querySelector("#bf-sale-timer");
+    const timerDuration = {{ section.settings.timer_duration }} * 3600; // Convert hours to seconds
+    const savedTimer = getCookie('bf_timer'); // Get the saved timer value from cookies
+
+    // If a saved timer exists, use it; otherwise, start with the full duration
+    const initialTimer = savedTimer ? parseInt(savedTimer) : timerDuration;
+
+    startTimer(initialTimer, display);
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Custom BF Timer Bar",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "timer_color",
+      "label": "Timer Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#D31818"
+    },
+    {
+      "type": "text",
+      "id": "before_text",
+      "label": "Before Timer Text",
+      "default": "FINAL HOURS—"
+    },
+    {
+      "type": "text",
+      "id": "after_text",
+      "label": "After Timer Text",
+      "default": "SUMMER SALE"
+    },
+    {
+      "type": "range",
+      "id": "timer_duration",
+      "label": "Timer Duration (hours)",
+      "min": 1,
+      "max": 24,
+      "step": 1,
+      "default": 5
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom BF Timer Bar",
+      "category": "Promotional"
+    }
+  ]
+}
+{% endschema %}
