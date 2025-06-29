@@ -26,6 +26,18 @@
         "mobile_height": "auto"
       }
     },
+    "featured_collection_bxLbCR": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Now fully on trend",
+        "home_featured_products": "fermeture-vente",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "featured_collections_WGkLAc": {
       "type": "featured-collections",
       "blocks": {
@@ -73,18 +85,6 @@
         "divider": false,
         "per_row": 4,
         "enable_gutter": true
-      }
-    },
-    "featured_collection_bxLbCR": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Nos articles tendances",
-        "home_featured_products": "fermeture-vente",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
       }
     },
     "featured_collections_ctkUxd": {
@@ -246,8 +246,8 @@
   },
   "order": [
     "hero_video_J3D9y8",
-    "featured_collections_WGkLAc",
     "featured_collection_bxLbCR",
+    "featured_collections_WGkLAc",
     "featured_collections_ctkUxd",
     "featured_collection_rQff8k",
     "scrolling_text_qcALDx",
