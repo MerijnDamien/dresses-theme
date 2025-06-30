@@ -144,6 +144,7 @@
     },
     "scrolling_text_yqNX4Q": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "text": "Join Thousands Who Love Aussie Style!",
         "link": "",
@@ -228,6 +229,19 @@
         "color_text": "#1c1d1d"
       }
     },
+    "featured_collection_G6ithg": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Bundel & get up up to 20% extra off!",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "text_and_image_9YRb8F": {
       "type": "text-and-image",
       "settings": {
@@ -247,6 +261,18 @@
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "h2,.h2 {font-size: calc(var(--typeHeaderSize) * 0.73);}",
+        ".index-section {margin: 55px 0;}"
+      ],
+      "settings": {
+        "product_recommendations_heading": "You May Also Like...",
+        "related_count": 5,
+        "products_per_row": 5
       }
     },
     "recently-viewed": {
@@ -281,18 +307,6 @@
         "full_width": false,
         "space_around": false,
         "lazyload_images": true
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "custom_css": [
-        "h2,.h2 {font-size: calc(var(--typeHeaderSize) * 0.73);}",
-        ".index-section {margin: 55px 0;}"
-      ],
-      "settings": {
-        "product_recommendations_heading": "You May Also Like...",
-        "related_count": 5,
-        "products_per_row": 5
       }
     },
     "text_with_icons_mJ3Wt9": {
@@ -353,11 +367,12 @@
     "scrolling_text_yqNX4Q",
     "sub",
     "testimonials_U6jWLR",
+    "featured_collection_G6ithg",
     "text_and_image_9YRb8F",
+    "product-recommendations",
     "recently-viewed",
     "collection-return",
     "advanced_content_8xgThm",
-    "product-recommendations",
     "text_with_icons_mJ3Wt9"
   ]
 }
