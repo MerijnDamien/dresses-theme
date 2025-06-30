@@ -14,15 +14,15 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "announcement-0": {
+        "announcement_mXpVf7": {
           "type": "announcement",
           "settings": {
-            "text": "COLLECTION AUTOMNE HIVER JUSQU'A -40%",
-            "link_text": "",
+            "text": "bundle & save",
+            "link_text": "buy more, pay less",
             "link": ""
           }
         },
-        "announcement_mXpVf7": {
+        "announcement_mDWTPF": {
           "type": "announcement",
           "settings": {
             "text": "Hassle-free returns",
@@ -32,8 +32,8 @@
         }
       },
       "block_order": [
-        "announcement-0",
-        "announcement_mXpVf7"
+        "announcement_mXpVf7",
+        "announcement_mDWTPF"
       ],
       "settings": {
         "announcement_compact": true
