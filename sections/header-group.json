@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "bundle & save",
-            "link_text": "buy more, pay less",
+            "link_text": "buy more, pay less SHOP NOW",
             "link": ""
           }
         },
@@ -29,11 +29,20 @@
             "link_text": "30-day postage paid returns",
             "link": ""
           }
+        },
+        "announcement_PE4RAz": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement_mXpVf7",
-        "announcement_mDWTPF"
+        "announcement_mDWTPF",
+        "announcement_PE4RAz"
       ],
       "settings": {
         "announcement_compact": true
