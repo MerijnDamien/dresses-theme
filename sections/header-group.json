@@ -29,20 +29,11 @@
             "link_text": "30-day postage paid returns",
             "link": ""
           }
-        },
-        "announcement_PE4RAz": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free shipping",
-            "link_text": "On every order",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "announcement_mXpVf7",
-        "announcement_mDWTPF",
-        "announcement_PE4RAz"
+        "announcement_mDWTPF"
       ],
       "settings": {
         "announcement_compact": true
