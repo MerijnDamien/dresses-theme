@@ -231,6 +231,7 @@
     },
     "featured_collection_G6ithg": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
         "title": "Bundel & get up up to 20% extra off!",
@@ -240,6 +241,18 @@
         "mobile_scrollable": true,
         "view_all": false,
         "divider": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "h2,.h2 {font-size: calc(var(--typeHeaderSize) * 0.73);}",
+        ".index-section {margin: 55px 0;}"
+      ],
+      "settings": {
+        "product_recommendations_heading": "Bundel & get up up to 20% extra off!",
+        "related_count": 5,
+        "products_per_row": 5
       }
     },
     "text_and_image_9YRb8F": {
@@ -261,18 +274,6 @@
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "custom_css": [
-        "h2,.h2 {font-size: calc(var(--typeHeaderSize) * 0.73);}",
-        ".index-section {margin: 55px 0;}"
-      ],
-      "settings": {
-        "product_recommendations_heading": "You May Also Like...",
-        "related_count": 5,
-        "products_per_row": 5
       }
     },
     "recently-viewed": {
@@ -368,8 +369,8 @@
     "sub",
     "testimonials_U6jWLR",
     "featured_collection_G6ithg",
-    "text_and_image_9YRb8F",
     "product-recommendations",
+    "text_and_image_9YRb8F",
     "recently-viewed",
     "collection-return",
     "advanced_content_8xgThm",
