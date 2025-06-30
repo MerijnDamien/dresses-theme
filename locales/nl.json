@@ -380,5 +380,10 @@
   },
   "date_formats": {
     "month_day_year": ""
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
