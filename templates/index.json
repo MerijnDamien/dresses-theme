@@ -30,7 +30,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "VERY POPULAR RIGHT NOW...",
-        "home_featured_products": "",
+        "home_featured_products": "dresses",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
