@@ -102,7 +102,7 @@
           "type": "tab",
           "settings": {
             "title": "24/7 SUPPORT",
-            "content": "<p><strong>Our customer service is available 24/7 to answer all your questions and comments.</strong> Whether you need advice on a product or help with an order, we are here to support you.</p><p>Don’t hesitate to contact us; we’re happy to help!</p><p>Please contact us at info@noble-silhouettes.com</p>",
+            "content": "<p><strong>Our customer service is available 24/7 to answer all your questions and comments.</strong> Whether you need advice on a product or help with an order, we are here to support you.</p><p>Don’t hesitate to contact us; we’re happy to help!</p><p>Please contact us at<strong> info@noble-silhouettes.com</strong></p>",
             "page": ""
           }
         }
