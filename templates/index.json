@@ -30,7 +30,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "VERY POPULAR RIGHT NOW...",
-        "home_featured_products": "dresses",
+        "home_featured_products": "bestsellers",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
@@ -44,7 +44,7 @@
         "collection_xhPUcY": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "all-dresses",
             "title": "Dresses",
             "focal_point": "center center"
           }
@@ -52,7 +52,7 @@
         "collection_HHRaQ6": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bestsellers",
             "title": "Bestsellers",
             "focal_point": "center center"
           }
@@ -159,7 +159,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Find Your Favorite Dress...",
-        "home_featured_products": "",
+        "home_featured_products": "all-dresses",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
