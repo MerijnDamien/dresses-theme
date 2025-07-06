@@ -59,7 +59,7 @@
         "hover_menu": true,
         "mega_menu_images": false,
         "main_menu_alignment": "center",
-        "header_style": "normal",
+        "header_style": "sticky",
         "sticky_index": false,
         "sticky_collection": false,
         "toolbar_menu": "",
