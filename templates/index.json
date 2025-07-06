@@ -17,7 +17,7 @@
         "title_size": 80,
         "subheading": "Limited-Time Summer Sale – Up to 50% Off",
         "link_text": "SHOP NOW",
-        "link": "",
+        "link": "shopify://collections/all-dresses",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
         "video_url": "https://videos.pexels.com/video-files/8529808/8529808-sd_640_360_25fps.mp4",
@@ -46,7 +46,7 @@
           "settings": {
             "collection": "all-dresses",
             "title": "Dresses",
-            "focal_point": "center center"
+            "focal_point": "top center"
           }
         },
         "collection_HHRaQ6": {
@@ -54,7 +54,7 @@
           "settings": {
             "collection": "bestsellers",
             "title": "Bestsellers",
-            "focal_point": "center center"
+            "focal_point": "top center"
           }
         }
       },
