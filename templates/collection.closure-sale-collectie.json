@@ -132,12 +132,65 @@
         "enable_swatch_labels": false,
         "enable_sort": false
       }
+    },
+    "text_with_icons_fhF3WA": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_GRbrQV": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "Free shipping",
+            "text": "<p>Across the United States.</p>"
+          }
+        },
+        "text_block_mDWgj9": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "money back",
+            "text": "<p>30-days return policy.</p>"
+          }
+        },
+        "text_block_97Paj6": {
+          "type": "text_block",
+          "settings": {
+            "icon": "sales-tag",
+            "title": "Quality guarantee",
+            "text": "<p>Made to feel as good as you look.</p>"
+          }
+        },
+        "text_block_PCwHxq": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "24/7 support",
+            "text": "<p>Always here to help.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_GRbrQV",
+        "text_block_mDWgj9",
+        "text_block_97Paj6",
+        "text_block_PCwHxq"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
     }
   },
   "order": [
     "rich_text_qBXxYq",
     "collection-header",
     "promo-grid",
-    "main-collection"
+    "main-collection",
+    "text_with_icons_fhF3WA"
   ]
 }
