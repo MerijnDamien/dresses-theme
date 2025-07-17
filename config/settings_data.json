@@ -77,6 +77,9 @@
     "social_facebook_link": "",
     "social_instagram_link": "",
     "show_breadcrumbs": false,
+    "enable_cart_upsell": true,
+    "cart_drawer_upsell_type": "recommendations",
+    "cart_drawer_recommendations_products_to_show": 1,
     "breadcrumb": false,
     "checkout_accent_color": "#111111",
     "checkout_body_background_color": "#ffffff",
@@ -100,11 +103,6 @@
     "blocks": {
       "3991723993231535834": {
         "type": "shopify://apps/trackbee-connect/blocks/trackbee/4ee1d514-671e-48bf-bd4e-9373f4af089a",
-        "disabled": false,
-        "settings": {}
-      },
-      "16437886600928722036": {
-        "type": "shopify://apps/amote/blocks/amote/14aa5bc3-7a5d-47bd-abcb-3baaa5c02f17",
         "disabled": false,
         "settings": {}
       }
