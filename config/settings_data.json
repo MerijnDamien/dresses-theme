@@ -102,6 +102,11 @@
         "type": "shopify://apps/trackbee-connect/blocks/trackbee/4ee1d514-671e-48bf-bd4e-9373f4af089a",
         "disabled": false,
         "settings": {}
+      },
+      "16437886600928722036": {
+        "type": "shopify://apps/amote/blocks/amote/14aa5bc3-7a5d-47bd-abcb-3baaa5c02f17",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
