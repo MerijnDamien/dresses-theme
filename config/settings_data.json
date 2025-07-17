@@ -78,6 +78,8 @@
     "social_instagram_link": "",
     "show_breadcrumbs": false,
     "enable_cart_upsell": true,
+    "cart_drawer_recommendations_background_color": "#ffffff",
+    "cart_drawer_recommendations_heading_color": "#000000",
     "cart_drawer_upsell_type": "recommendations",
     "cart_drawer_recommendations_products_to_show": 1,
     "breadcrumb": false,
