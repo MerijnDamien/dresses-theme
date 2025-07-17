@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Impulse",
-    "theme_author": "Archetype Themes",
+    "theme_name": "Noble Boutique",
+    "theme_author": "Noble Boutique",
     "theme_version": "7.5.2",
-    "theme_documentation_url": "https://archetypethemes.co/blogs/impulse",
-    "theme_support_url": "https://archetypethemes.co/pages/support#impulse"
+    "theme_documentation_url": "https://noble-silhouettes.com",
+    "theme_support_url": "https://noble-silhouettes.com"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -1046,5 +1046,203 @@
         "label": "t:settings_schema.extras.settings.disable_animations.label"
       }
     ]
+  },
+    {
+    "name": "Cart Drawer Recommendations Upsell",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_cart_upsell",
+        "label": "Enable Cart Drawer Recommendations",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Formatting Settings"
+      },
+      {
+        "type": "color",
+        "id": "cart_drawer_recommendations_background_color",
+        "label": "Background Color",
+        "default": "#f2f2f2"
+      },
+      {
+        "type": "text",
+        "id": "cart_drawer_recommendations_heading",
+        "label": "Heading Text",
+        "default": "You may also like"
+      },
+      {
+        "type": "color",
+        "id": "cart_drawer_recommendations_heading_color",
+        "label": "Heading Color",
+        "default": "#333333"
+      },
+      {
+        "type": "range",  
+        "id": "cart_drawer_recommendations_heading_font_size",
+        "label": "Heading Font Size",
+        "min": 16,
+        "max": 28,
+        "step": 1,
+        "default": 20
+      },
+      {
+        "type": "select",
+        "id": "cart_drawer_recommendations_heading_font_weight",
+        "label": "Heading Font Weight",
+        "default": "bold",
+        "options": [
+          {
+            "value": "normal",
+            "label": "Normal"
+          },
+          {
+            "value": "bold",
+            "label": "Bold"
+          },
+          {
+            "value": "bolder",
+            "label": "Bolder"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "cart_drawer_recommendation_media_width",
+        "label": "Media Width",
+        "min": 30,
+        "max": 60,
+        "step": 5,
+        "default": 45
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_drawer_recommendation_hide_variant_titles",
+        "label": "Hide Variant Titles",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "cart_drawer_recommendation_picker_type",
+        "options": [
+          {
+            "value": "dropdown",
+            "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.options__1.label"
+          },
+          {
+            "value": "button",
+            "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.options__2.label"
+          }
+        ],
+        "default": "dropdown",
+        "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+      },
+      {
+        "id": "cart_drawer_recommendation_swatch_shape",
+        "label": "t:sections.main-product.blocks.variant_picker.settings.swatch_shape.label",
+        "type": "select",
+        "info": "t:sections.main-product.blocks.variant_picker.settings.swatch_shape.info",
+        "options": [
+          {
+            "value": "circle",
+            "label": "t:sections.main-product.blocks.variant_picker.settings.swatch_shape.options__1.label"
+          },
+          {
+            "value": "square",
+            "label": "t:sections.main-product.blocks.variant_picker.settings.swatch_shape.options__2.label"
+          },
+          {
+            "value": "none",
+            "label": "t:sections.main-product.blocks.variant_picker.settings.swatch_shape.options__3.label"
+          }
+        ],
+        "default": "none"
+      },
+      {
+        "type": "color",
+        "id": "cart_drawer_recommendation_btn_color",
+        "label": "Add To Cart Button Color",
+        "default": "#000000"
+      },
+      {
+        "type": "color",
+        "id": "cart_drawer_recommendation_btn_text_color",
+        "label": "Add To Cart Button Text Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
+        "content": "Upsell Product Selection Settings"
+      },
+      {
+        "type": "select",
+        "id": "cart_drawer_upsell_type",
+        "label": "Cart Upsell Type",
+        "options": [
+          {
+            "value": "recommendations",
+            "label": "Auto Recommendations"
+          },
+          {
+            "value": "complementary",
+            "label": "Complementary"
+          }
+        ],
+        "default": "recommendations",
+        "info": "Auto Recommendations are automatically generated based on cart contents. Complementary is based on selected complementary products in the Shopify Search & Discovery app."
+      },
+      {
+        "type": "range",
+        "id": "cart_drawer_recommendations_products_to_show",
+        "label": "Upsell Products to Show",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "default": 3
+      },
+      {
+        "type": "header",
+        "content": "Recommendations Settings"
+      },
+      {
+        "type": "range",
+        "id": "cart_drawer_recommendations_products_to_recommend",
+        "label": "Products to Recommend per Cart Item",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "default": 4,
+        "info": "For Auto Recommendations calculations only. Adjust this number to increase the pool of potential products to recommend in the final ranking. Must be equal or greater than the setting Upsell Products To Show."
+      },
+      {
+        "type": "range",
+        "id": "recommendation_weight_quantity",
+        "label": "Recommendation Weight Factor: Quantity",
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "default": 0.3
+      },
+      {
+        "type": "range",
+        "id": "recommendation_weight_frequency",
+        "label": "Recommendation Weight Factor: Frequency",
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "default": 0.4
+      },
+      {
+        "type": "range",
+        "id": "recommendation_weight_position",
+        "label": "Recommendation Weight Factor: Position",
+        "min": 0,
+        "max": 1,
+        "step": 0.1,
+        "default": 0.3
+      }
+    ]
   }
+
 ]
