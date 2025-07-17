@@ -554,5 +554,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#CartDrawer {z-index: 99999;}"
+    ]
   }
 }
