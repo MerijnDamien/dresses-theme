@@ -1,0 +1,49 @@
+{%- liquid
+  assign collection = collections[section.settings.collection]
+  assign products = collection.products
+  assign products_limit = section.settings.products_limit
+-%}
+
+<div class="cart-drawer-upsell">
+  {% if products.size > 0 %}
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for product in products limit: products_limit %}
+          <div class="swiper-slide">
+            {% render 'cart-upsell-product-item', product: product %}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Cart Drawer Upsell",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select Collection"
+    },
+    {
+      "type": "range",
+      "id": "products_limit",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "label": "Products Limit",
+      "default": 5
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cart Drawer Upsell"
+    }
+  ]
+}
+{% endschema %}

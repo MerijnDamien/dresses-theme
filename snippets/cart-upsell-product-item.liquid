@@ -1,0 +1,79 @@
+{%- liquid
+  assign on_sale = false
+  if product.compare_at_price > product.price
+    assign on_sale = true
+  endif
+
+  assign preview_image = product.featured_media.preview_image
+-%}
+
+<div class="grid-product" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
+  <div class="grid-product__content">
+    <a href="{{ product.url }}" class="grid-product__link">
+      <div class="grid__item-image-wrapper">
+        <div class="grid-product__image-mask">
+          <div class="image-wrap"
+            {% if preview_image != blank %}
+              style="height: 0; padding-bottom: {{ 100 | divided_by: preview_image.aspect_ratio }}%;"
+            {% endif %}
+          >
+            {%- if preview_image != blank -%}
+              {%- render 'image-element',
+                img: preview_image,
+                classes: 'grid-product__image',
+                widths: '360, 540, 720, 900, 1080',
+              -%}
+            {%- else -%}
+              {%- capture placeholder -%}product-{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
+              <div class="product-image--placeholder">{{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}</div>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+      <div class="grid-product__meta">
+        <div class="grid-product__title">{{ product.title }}</div>
+        <div class="grid-product__price">
+          {%- if on_sale -%}
+            <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+            <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>
+            <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+          {%- endif -%}
+          {%- if product.price_varies -%}
+            {%- assign price = product.price_min | money -%}
+            {{ 'products.general.from_text_html' | t: price: price }}
+          {%- else -%}
+            {{ product.price | money }}
+          {%- endif -%}
+        </div>
+      </div>
+    </a>
+    <form method="post" action="/cart/add">
+      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+      {%- if product.variants.size > 1 -%}
+        <div class="product-form__controls-group">
+          {%- for option in product.options_with_values -%}
+            <div class="selector-wrapper js product-form__item">
+              <label for="upsell-option-{{ option.position }}">{{ option.name }}</label>
+              <select
+                id="upsell-option-{{ option.position }}"
+                class="single-option-selector single-option-selector-{{ section.id }} product-form__input"
+                data-name="{{ option.name }}"
+                data-index="option{{ option.position }}">
+                {%- for value in option.values -%}
+                  <option
+                    value="{{ value | escape }}"
+                    {% if option.selected_value == value %}selected="selected"{% endif %}>
+                    {{ value }}
+                  </option>
+                {%- endfor -%}
+              </select>
+            </div>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+      <button type="submit" name="add" class="btn product-form__cart-submit">
+        <span>{{ 'products.product.add_to_cart' | t }}</span>
+      </button>
+    </form>
+  </div>
+</div>
