@@ -1243,6 +1243,24 @@
         "default": 0.3
       }
     ]
+  },
+  {
+    "name": "Cart Drawer Upsell",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "cart_drawer_upsell_collection",
+        "label": "Upsell Collection"
+      },
+      {
+        "type": "range",
+        "id": "cart_drawer_upsell_products_limit",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "label": "Products Limit",
+        "default": 5
+      }
+    ]
   }
-
 ]

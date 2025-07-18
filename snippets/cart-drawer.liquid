@@ -64,7 +64,7 @@
           {% endif %}
   
           {% if settings.enable_cart_upsell and cart.items.size > 0 %}
-            {% section 'cart-drawer-upsell' %}
+            {% render 'cart-drawer-upsell' %}
           {% endif %}
 
         </div>

@@ -1,7 +1,7 @@
 {%- liquid
-  assign collection = collections[section.settings.collection]
+  assign collection = collections[settings.cart_drawer_upsell_collection]
   assign products = collection.products
-  assign products_limit = section.settings.products_limit
+  assign products_limit = settings.cart_drawer_upsell_products_limit
 -%}
 
 <div class="cart-drawer-upsell">
@@ -20,30 +20,3 @@
     </div>
   {% endif %}
 </div>
-
-{% schema %}
-{
-  "name": "Cart Drawer Upsell",
-  "settings": [
-    {
-      "type": "collection",
-      "id": "collection",
-      "label": "Select Collection"
-    },
-    {
-      "type": "range",
-      "id": "products_limit",
-      "min": 1,
-      "max": 10,
-      "step": 1,
-      "label": "Products Limit",
-      "default": 5
-    }
-  ],
-  "presets": [
-    {
-      "name": "Cart Drawer Upsell"
-    }
-  ]
-}
-{% endschema %}
