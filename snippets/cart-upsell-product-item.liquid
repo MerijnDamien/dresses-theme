@@ -50,11 +50,7 @@
 
     <form method="post" action="/cart/add">
       <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-      {%- if product.variants.size > 1 -%}
-        <div class="product-form__controls-group">
-          {%- for option in product.options_with_values -%}
-            <div class="selector-wrapper js product-form__item">
-              <label for="upsell-option-{{ option.position }}">{{ option.name }}</label>
+<div class="styles_PreviewCarousel__selectWrapper__">
             <select class="upcart-upsell-item-variant-selector styles_PreviewCarousel__select__" title="productVariant" name="id">
               {%- for variant in product.variants -%}
                 <option
@@ -64,10 +60,12 @@
                 </option>
               {%- endfor -%}
             </select>
+            <div class="styles_SelectArrow__">
+              <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.353516 0.840118L3.96848 4.76997L7.58344 0.840118L0.353516 0.840118Z" fill="#6F6F6F"></path>
+              </svg>
             </div>
-          {%- endfor -%}
-        </div>
-      {%- endif -%}
+          </div>
       <button type="submit" name="add" class="btn product-form__cart-submit">
         <span>Add</span>
       </button>
