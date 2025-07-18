@@ -7,73 +7,59 @@
   assign preview_image = product.featured_media.preview_image
 -%}
 
-<div class="grid-product" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
-  <div class="grid-product__content">
-    <a href="{{ product.url }}" class="grid-product__link">
-      <div class="grid__item-image-wrapper">
-        <div class="grid-product__image-mask">
-          <div class="image-wrap"
-            {% if preview_image != blank %}
-              style="height: 0; padding-bottom: {{ 100 | divided_by: preview_image.aspect_ratio }}%;"
-            {% endif %}
-          >
-            {%- if preview_image != blank -%}
-              {%- render 'image-element',
-                img: preview_image,
-                classes: 'grid-product__image',
-                widths: '360, 540, 720, 900, 1080',
-              -%}
-            {%- else -%}
-              {%- capture placeholder -%}product-{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
-              <div class="product-image--placeholder">{{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}</div>
-            {%- endif -%}
+<div class="upcart-upsell-item-card styles_PreviewCarousel__item__ UpcartDesignSettings__cartAccentColor upcart-upsells">
+  <div class="Stack Stack--noWrap ">
+    <div class="Stack__item" data-internal-properties="isImageForUpsellWithRating=false">
+      <div class="upcart-upsell-item-image-wrapper styles_PreviewCarousel__imageWrapper__">
+        <a href="{{ product.url }}">
+          {%- if preview_image != blank -%}
+            <img class="upcart-upsell-item-image" src="{{ preview_image | image_url: height: 180 }}" alt="{{ preview_image.alt | escape }}" height="180" width="{{ 180 | times: preview_image.aspect_ratio | round }}">
+          {%- else -%}
+            {%- capture placeholder -%}product-{% cycle 1, 2, 3, 4, 5, 6 %}{%- endcapture -%}
+            <div class="product-image--placeholder">{{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}</div>
+          {%- endif -%}
+        </a>
+      </div>
+    </div>
+    <div class="Stack__item Stack__item--fill">
+      <div class="styles_PreviewCarousel__itemTitle__">
+        <a href="{{ product.url }}" class="variationStrong UpcartDesignSettings__cartTextColor">
+          <h3 class="upcart-upsell-item-title styles_itemTitle__">{{ product.title }}</h3>
+        </a>
+        <span class="upcart-upsell-item-price-row styles_PreviewCarousel__itemPrice__">
+          {%- if on_sale -%}
+            <span class="upcart-upsell-item-compare-price styles_PreviewCarousel__itemPrice--discount__ UpcartDesignSettings__cartTextSubduedColor upcart-default-price">
+              <span class="money">{{ product.compare_at_price | money }}</span>
+            </span>
+          {%- endif -%}
+          <span class="upcart-upsell-item-price UpcartDesignSettings__cartTextColor upcart-discount-price">
+            <span class="money">{{ product.price | money }}</span>
+          </span>
+        </span>
+      </div>
+      <form method="post" action="/cart/add">
+        <div class="styles_PreviewCarousel__variationProduct__">
+          <div class="styles_PreviewCarousel__selectWrapper__">
+            <select class="upcart-upsell-item-variant-selector styles_PreviewCarousel__select__" title="productVariant" name="id">
+              {%- for variant in product.variants -%}
+                <option
+                  value="{{ variant.id }}"
+                  {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}>
+                  {{ variant.title }}
+                </option>
+              {%- endfor -%}
+            </select>
+            <div class="styles_SelectArrow__">
+              <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.353516 0.840118L3.96848 4.76997L7.58344 0.840118L0.353516 0.840118Z" fill="#6F6F6F"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="styles_PreviewCarousel__inputWrapper__">
+            <input type="submit" class="upcart-upsells-button styles_PreviewCarousel__button__ UpcartDesignSettings__button" value="{{ 'products.product.add_to_cart' | t }}">
           </div>
         </div>
-      </div>
-      <div class="grid-product__meta">
-        <div class="grid-product__title">{{ product.title }}</div>
-        <div class="grid-product__price">
-          {%- if on_sale -%}
-            <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-            <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>
-            <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-          {%- endif -%}
-          {%- if product.price_varies -%}
-            {%- assign price = product.price_min | money -%}
-            {{ 'products.general.from_text_html' | t: price: price }}
-          {%- else -%}
-            {{ product.price | money }}
-          {%- endif -%}
-        </div>
-      </div>
-    </a>
-    <form method="post" action="/cart/add">
-      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-      {%- if product.variants.size > 1 -%}
-        <div class="product-form__controls-group">
-          {%- for option in product.options_with_values -%}
-            <div class="selector-wrapper js product-form__item">
-              <label for="upsell-option-{{ option.position }}">{{ option.name }}</label>
-              <select
-                id="upsell-option-{{ option.position }}"
-                class="single-option-selector single-option-selector-{{ section.id }} product-form__input"
-                data-name="{{ option.name }}"
-                data-index="option{{ option.position }}">
-                {%- for value in option.values -%}
-                  <option
-                    value="{{ value | escape }}"
-                    {% if option.selected_value == value %}selected="selected"{% endif %}>
-                    {{ value }}
-                  </option>
-                {%- endfor -%}
-              </select>
-            </div>
-          {%- endfor -%}
-        </div>
-      {%- endif -%}
-      <button type="submit" name="add" class="btn product-form__cart-submit">
-        <span>{{ 'products.product.add_to_cart' | t }}</span>
-      </button>
-    </form>
+      </form>
+    </div>
   </div>
 </div>
