@@ -9,9 +9,9 @@
 
 
 <div class="grid-product" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
-  <div class="grid-product__content">
-    <a href="{{ product.url }}" class="grid-product__link">
-      <div class="grid__item-image-wrapper">
+  <div class="grid-product__content" style="display: flex; gap: 20px; padding: 5px;">
+    <a href="{{ product.url }}" class="grid-product__link" style="width: 90px;">
+      <div class="grid__item-image-wrapper" style="width: 90px;">
           <div class="image-wrap"
             {% if preview_image != blank %}
               style="height: 0; padding-bottom: {{ 100 | divided_by: preview_image.aspect_ratio }}%;"
@@ -30,9 +30,9 @@
           </div>
       </div>
     </a>
-    <div>
-            <div class="grid-product__meta">
-        <div class="grid-product__title">{{ product.title }}</div>
+    <div style="max-width: calc(100% - 90px - 20px);">
+            <div class="grid-product__meta" style="text-align: left;">
+        <div class="grid-product__title" style="font-size: 15px; overflow: hidden !important; text-overflow: ellipsis; white-space: nowrap;">{{ product.title }}</div>
         <div class="grid-product__price">
           {%- if on_sale -%}
             <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
