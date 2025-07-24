@@ -15,7 +15,8 @@
       "settings": {
         "background_image": "shopify://shop_images/womens-fashion-tattooed-woman-holding-flowers-and-wine.jpg",
         "image_height": "medium",
-        "heading": "The summer sale is here!",
+        "heading": "Get ready for wedding season!",
+        "description": "Browse our gorgeous new lineup of dresses made for wedding guests — crafted to help you shine on that special day. For a limited time only, enjoy exclusive savings — shop early to grab your favorite look before it’s gone! 🤍",
         "show_overlay": true,
         "overlay_opacity": 40
       }
