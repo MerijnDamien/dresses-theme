@@ -70,6 +70,37 @@ Snippet Arguments
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
     {%- for item in items -%}
+        {% if forloop.index == 6 %}
+<div class="summer-sale-promo">
+  <div class="promo-content">
+    <div class="promo-badge">
+      <span class="badge-text">LIMITED TIME</span>
+    </div>
+    
+    <div class="promo-main">
+      <h2 class="promo-title">🌞 SUMMER FLASH SALE</h2>
+      <p class="promo-discount">UP TO <span class="discount-percent">65% OFF</span></p>
+      <p class="promo-description">Beat the heat with scorching hot deals on summer essentials!</p>
+      
+      <div class="urgency-timer">
+        <p class="timer-text">⏰ Sale ends in:</p>
+        <div class="countdown">
+          <span class="time-unit"><strong>2</strong> Days</span>
+          <span class="time-unit"><strong>14</strong> Hours</span>
+          <span class="time-unit"><strong>32</strong> Minutes</span>
+        </div>
+      </div>
+      
+      <div class="promo-cta">
+        <a href="/collections/summer-sale" class="cta-button">SHOP NOW</a>
+        <p class="stock-warning">⚡ While supplies last - Most popular items selling fast!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  {% endif %}
+      
       {%- if item.object_type == 'product' -%}
         {%- render 'product-grid-item',
           product: item,
