@@ -13,12 +13,12 @@
       "type": "yasir-was-hier",
       "name": "Yasir zijn hero",
       "settings": {
-        "background_image": "shopify://shop_images/womens-fashion-tattooed-woman-holding-flowers-and-wine.jpg",
+        "background_image": "shopify://shop_images/a-fashion-editorial-photograph-featuring_5tE5NRZsQrGSVtqykNqloA_BO7FiCqtSFm2Oz61lAhYzg.jpg",
         "image_height": "medium",
         "heading": "Get ready for wedding season!",
         "description": "Browse our gorgeous new lineup of dresses made for wedding guests — crafted to help you shine on that special day. For a limited time only, enjoy exclusive savings — shop early to grab your favorite look before it’s gone! 🤍",
         "show_overlay": true,
-        "overlay_opacity": 70
+        "overlay_opacity": 60
       }
     },
     "collection-header": {
