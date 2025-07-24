@@ -15,15 +15,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 ">
+  {% if section.settings.show_overlay %}
+    <div class="hero-overlay" style="
+      background-color: rgba(0, 0, 0, {{ section.settings.overlay_opacity | divided_by: 100.0 }});
+    "></div>
+  {% endif %}
+  
   <div class="hero-content">
     {% if section.settings.heading != blank %}
       <h1 class="hero-heading">{{ section.settings.heading }}</h1>
-      <p> <strong> 10% OFF WHEN YOU BUY 2 ITEMS <br>
-    15% OFF WHEN YOU BUY 3 ITEMS <br>
-      20% OFF WHEN YOU BUY 4 OR MORE ITEMS </strong> <br><br>
-      *Discounts are automatically applied at checkout.</p>
     {% endif %}
+    
+    <div class="promotional-text">
+      <p><strong>10% OFF WHEN YOU BUY 2 ITEMS<br>
+        15% OFF WHEN YOU BUY 3 ITEMS<br>
+        20% OFF WHEN YOU BUY 4 OR MORE ITEMS</strong><br><br>
+        *Discounts are automatically applied at checkout.
+      </p>
+    </div>
   </div>
 </div>
 
@@ -33,18 +44,43 @@
     width: 100%;
   }
   
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
   .hero-content {
     text-align: center;
     color: white;
     z-index: 2;
     padding: 2rem;
+    position: relative;
   }
   
   .hero-heading {
     font-size: 3rem;
     font-weight: bold;
-    margin: 0;
+    margin: 0 0 1.5rem 0;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .promotional-text {
+    margin-top: 1rem;
+  }
+  
+  .promotional-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }
+  
+  .promotional-text strong {
+    font-size: 1.3rem;
   }
   
   /* Mobile styles */
@@ -64,6 +100,15 @@
     
     .hero-heading {
       font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .promotional-text p {
+      font-size: 1rem;
+    }
+    
+    .promotional-text strong {
+      font-size: 1.1rem;
     }
   }
 </style>
@@ -109,11 +154,27 @@
       "id": "heading",
       "label": "Heading",
       "default": "Your Heading Here"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overlay",
+      "label": "Show Background Overlay",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 80,
+      "step": 10,
+      "unit": "%",
+      "label": "Overlay Opacity",
+      "default": 30
     }
   ],
   "presets": [
     {
-      "name": "Yasir zijn hero"
+      "name": "Custom Hero"
     }
   ]
 }
