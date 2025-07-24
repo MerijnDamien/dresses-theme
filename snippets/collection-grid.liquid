@@ -70,7 +70,45 @@ Snippet Arguments
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
     {%- for item in items -%}
+        {% if forloop.index == 6 %}
+<div class="card-text color-text-primary background-colors-accent-2 collection__card-text">
+    <div class="card-text__content"><h2 class="card-text__title">Summer Sale up to 55% off side-wide. shop your favorite looks now before they’re gone!</h2></div>
+  </div>
 
+    <style>
+      .card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30rem;
+  padding: 4rem;
+  background-color: var(--color-body-background);
+  text-align: center;
+}
+
+      @media screen and (min-width: 750px) {
+  .card-text:not(.card-text--static) .card-text__content {
+    --card-content-padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: none;
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--card-content-padding);
+    overflow: hidden;
+  }
+}
+
+      .card-text__content {
+  max-width: 47rem;
+  margin: 0 auto;
+}
+    </style>
+  {% endif %}
       {%- if item.object_type == 'product' -%}
         {%- render 'product-grid-item',
           product: item,
