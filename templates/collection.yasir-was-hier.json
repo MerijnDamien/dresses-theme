@@ -9,40 +9,13 @@
  */
 {
   "sections": {
-    "slideshow_TLy8jF": {
-      "type": "slideshow",
-      "blocks": {
-        "image_yDWfz4": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Endless\npossibilities.",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/womens-fashion-tattooed-woman-holding-flowers-and-wine.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_yDWfz4"
-      ],
-      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+    "yasir_was_hier_qUMnHk": {
+      "type": "yasir-was-hier",
+      "name": "Yasir zijn hero",
       "settings": {
-        "section_height": "550px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
+        "background_image": "shopify://shop_images/womens-fashion-tattooed-woman-holding-flowers-and-wine.jpg",
+        "image_height": "medium",
+        "heading": "The summer sale is here!"
       }
     },
     "rich_text_qBXxYq": {
@@ -171,7 +144,7 @@
     }
   },
   "order": [
-    "slideshow_TLy8jF",
+    "yasir_was_hier_qUMnHk",
     "rich_text_qBXxYq",
     "collection-header",
     "promo-grid",
