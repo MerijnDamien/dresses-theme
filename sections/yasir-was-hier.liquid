@@ -1,6 +1,120 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="custom-hero-section" style="
+  {% if section.settings.background_image %}
+    background-image: url('{{ section.settings.background_image | img_url: '1920x' }}');
+  {% endif %}
+  {% if section.settings.image_height == 'small' %}
+    min-height: 300px;
+  {% elsif section.settings.image_height == 'medium' %}
+    min-height: 500px;
+  {% elsif section.settings.image_height == 'large' %}
+    min-height: 700px;
+  {% endif %}
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+">
+  <div class="hero-content">
+    {% if section.settings.heading != blank %}
+      <h1 class="hero-heading">{{ section.settings.heading }}</h1>
+      <p> <strong> 10% OFF WHEN YOU BUY 2 ITEMS <br>
+    15% OFF WHEN YOU BUY 3 ITEMS <br>
+      20% OFF WHEN YOU BUY 4 OR MORE ITEMS </strong> <br><br>
+      *Discounts are automatically applied at checkout.</p>
+    {% endif %}
+  </div>
+</div>
+
+<style>
+  .custom-hero-section {
+    position: relative;
+    width: 100%;
   }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    padding: 2rem;
+  }
+  
+  .hero-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 768px) {
+    .custom-hero-section {
+      {% if section.settings.mobile_background_image %}
+        background-image: url('{{ section.settings.mobile_background_image | img_url: '768x' }}') !important;
+      {% endif %}
+      {% if section.settings.image_height == 'small' %}
+        min-height: 200px;
+      {% elsif section.settings.image_height == 'medium' %}
+        min-height: 350px;
+      {% elsif section.settings.image_height == 'large' %}
+        min-height: 500px;
+      {% endif %}
+    }
+    
+    .hero-heading {
+      font-size: 2rem;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Custom Hero Section",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image (Desktop)"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_background_image",
+      "label": "Background Image (Mobile)"
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "label": "Image Height",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Your Heading Here"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Yasir zijn hero"
+    }
+  ]
+}
 {% endschema %}
