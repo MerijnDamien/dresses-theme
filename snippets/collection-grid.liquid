@@ -70,69 +70,7 @@ Snippet Arguments
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
     {%- for item in items -%}
-            {%- if forloop.index == 6 -%}
-        <div class="grid__item summer-sale-promo-minimal">
-          <div class="promo-content-minimal">
-            <h2 class="promo-title-minimal">SUMMER SALE UP TO 55% OFF SITE-WIDE. SHOP YOUR FAVORITE LOOKS NOW BEFORE THEY'RE GONE!</h2>
-          </div>
-        </div>
-
-    <style>
-.summer-sale-promo-minimal {
-  background-color: #E8D0D0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px 15px;
-  box-sizing: border-box;
-  align-self: stretch;
-  min-height: 0;
-  height: auto;
-}
-
-.promo-content-minimal {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-}
-
-.promo-title-minimal {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #2C2C2C;
-  line-height: 1.2;
-  margin: 0;
-  letter-spacing: 0.3px;
-  text-transform: uppercase;
-}
-
-/* Mobile responsive styles */
-@media (max-width: 768px) {
-  .summer-sale-promo-minimal {
-    padding: 15px 10px;
-  }
-  
-  .promo-title-minimal {
-    font-size: 0.9rem;
-    line-height: 1.1;
-  }
-}
-
-@media (max-width: 480px) {
-  .summer-sale-promo-minimal {
-    padding: 10px 8px;
-  }
-  
-  .promo-title-minimal {
-    font-size: 0.8rem;
-  }
-}
-</style>
-      {%- endif -%}
+      
       {%- if item.object_type == 'product' -%}
         {%- render 'product-grid-item',
           product: item,
