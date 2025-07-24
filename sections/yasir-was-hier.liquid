@@ -28,6 +28,12 @@
       <h1 class="hero-heading">{{ section.settings.heading }}</h1>
     {% endif %}
     
+    {% if section.settings.description != blank %}
+      <div class="hero-description">
+        <p>{{ section.settings.description | newline_to_br }}</p>
+      </div>
+    {% endif %}
+    
     <div class="promotional-text">
       <p><strong>10% EXTRA ON 2 ITEMS<br>
         15% EXTRA ON 3 ITEMS<br>
@@ -68,6 +74,17 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   }
   
+  .hero-description {
+    margin-bottom: 2rem;
+  }
+  
+  .hero-description p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }
+  
   .promotional-text {
     margin-top: 1rem;
   }
@@ -101,6 +118,10 @@
     .hero-heading {
       font-size: 2rem;
       margin-bottom: 1rem;
+    }
+    
+    .hero-description p {
+      font-size: 1.1rem;
     }
     
     .promotional-text p {
@@ -154,6 +175,12 @@
       "id": "heading",
       "label": "Heading",
       "default": "Your Heading Here"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description Text",
+      "info": "This text will appear between the heading and the promotional offer"
     },
     {
       "type": "checkbox",
