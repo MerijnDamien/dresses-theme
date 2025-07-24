@@ -30,7 +30,7 @@
     
     {% if section.settings.description != blank %}
       <div class="hero-description" style="display: flex;justify-content: center;">
-        <p>{{ section.settings.description | newline_to_br }}</p>
+        <p style="max-width: 1000px;">{{ section.settings.description | newline_to_br }}</p>
       </div>
     {% endif %}
     
