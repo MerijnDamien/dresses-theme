@@ -29,8 +29,8 @@
     {% endif %}
     
     {% if section.settings.description != blank %}
-      <div class="hero-description">
-        <p>{{ section.settings.description | newline_to_br }}</p>
+      <div class="hero-description" style="display: flex;justify-content: center;">
+        <p style="width: 50%;">{{ section.settings.description | newline_to_br }}</p>
       </div>
     {% endif %}
     
