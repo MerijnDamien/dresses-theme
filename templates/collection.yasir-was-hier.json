@@ -15,7 +15,9 @@
       "settings": {
         "background_image": "shopify://shop_images/womens-fashion-tattooed-woman-holding-flowers-and-wine.jpg",
         "image_height": "medium",
-        "heading": "The summer sale is here!"
+        "heading": "The summer sale is here!",
+        "show_overlay": true,
+        "overlay_opacity": 40
       }
     },
     "rich_text_qBXxYq": {
