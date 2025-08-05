@@ -64,7 +64,7 @@
         "custom_zr4pe3": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"updatetext\" style=\"background-color: #fbeae5; color: rgb(155, 41, 0); text-align: left; margin-bottom: 30px; border-radius: 5px;\" >\n      <p><strong>LAST CHANCE:  </strong> Due to high demand, only a few items are still available! If you can still click on <strong>“Add to cart” </strong>, the item is still available.</p>\n      </div>\n\n<style>\n.updatetext {\n    padding: 20px;\n    margin-top: -8px;\n    border-radius: 10px;\n}\n.updatetext p {\n    margin: 0;\n}\n</style>"
+            "code": "<div class=\"updatetext\" style=\"background-color: #fbeae5; color: rgb(155, 41, 0); text-align: left; margin-bottom: 30px; border-radius: 5px;\" >\n      <p><strong>LAST CHANCE:  </strong> <br><br>\n<ul class=\"bundle-tiers\">\n    <li><strong>Buy 2</strong> → Save 10% Extra</li>\n    <li><strong>Buy 3</strong> → Save 15% Extra</li>\n    <li><strong>Buy 4</strong> → <span>Save 20% Extra</span></li>\n  </ul>If you can still click on <strong>“Add to cart” </strong>, the item is still available.</p>\n      </div>\n\n<style>\n.updatetext {\n    padding: 20px;\n    margin-top: -8px;\n    border-radius: 10px;\n}\n.updatetext p {\n    margin: 0;\n}\n</style>"
           }
         },
         "description": {
