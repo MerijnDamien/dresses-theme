@@ -159,7 +159,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Find Your Favorite Dress...",
-        "home_featured_products": "all-dresses",
+        "home_featured_products": "bestsellers",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
