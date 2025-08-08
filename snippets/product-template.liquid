@@ -123,31 +123,109 @@ data-modal="{{ isModal }}">
             {%- endif -%}
 
             {%- if isModal -%}
-              <div style="display: flex; align-items: center; gap: 6px;">
-<div style="color: black; font-size: 20px; margin-bottom: 10px;">
-  ★★★★★
-</div>
-<span style="font-size: 16px; color: black;">4.8/5.0 (343+ Reviews)</span>
+<div class="star-rating" style="display: flex; align-items: center; gap: 4px; font-family: inherit; font-size: 16px;  margin-bottom:1.6rem;">
+    <svg role="img" aria-labelledby="starRating" viewBox="0 0 251 46" xmlns="http://www.w3.org/2000/svg" width="120" height="24">
+        <title id="starRating" lang="en">4.6 out of five star rating on Trustpilot</title>
+        <!-- Star 1: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M0 46.33h46.376V0H0z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M39.534 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 2: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M51.248 46.33h46.376V0H51.248z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M90.781 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.838-11.799 3.837 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 3: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M102.532 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M142.067 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.838-11.799 3.837 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 4: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M153.815 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M193.348 19.711l-26.303 19.09 3.837-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 5: Half -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#dcdce6" d="M205.064 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__canvas--half" fill="#00B67A" d="M205.064 46.33h23.188V0h-23.188z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M244.597 19.711l-26.303 19.09 3.837-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+    </svg>
+    <span class="star-rating__text" style="margin-left: 6px;">Beloved by 1,700+ people</span>
 </div>
               <p class="h2 product-single__title">
                 {{ product.title }}
               </p>
             {%- else -%}
-              <div style="display: flex; align-items: center; gap: 6px;">
-<div style="color: black; font-size: 20px; margin-bottom: 10px;">
-  ★★★★★
-</div>
-<span style="font-size: 16px; color: black; margin-bottom: 10px;">4.8/5.0 (382+ Reviews)</span>
+              <div class="star-rating" style="display: flex; align-items: center; gap: 4px; font-family: inherit; font-size: 16px;  margin-bottom:1.6rem;">
+    <svg role="img" aria-labelledby="starRating" viewBox="0 0 251 46" xmlns="http://www.w3.org/2000/svg" width="120" height="24">
+        <title id="starRating" lang="en">4.6 out of five star rating on Trustpilot</title>
+        <!-- Star 1: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M0 46.33h46.376V0H0z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M39.534 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 2: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M51.248 46.33h46.376V0H51.248z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M90.781 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.838-11.799 3.837 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 3: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M102.532 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M142.067 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.838-11.799 3.837 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 4: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M153.815 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M193.348 19.711l-26.303 19.09 3.837-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 5: Half -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#dcdce6" d="M205.064 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__canvas--half" fill="#00B67A" d="M205.064 46.33h23.188V0h-23.188z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M244.597 19.711l-26.303 19.09 3.837-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+    </svg>
+    <span class="star-rating__text" style="margin-left: 6px;">Beloved by 1,700+ people</span>
 </div>
               <h1 class="h2 product-single__title">
                 {%- unless product.empty? -%}
                   {{ product.title }}
                 {%- else -%}
-                  <div style="display: flex; align-items: center; gap: 6px;">
-<div style="color: black; font-size: 20px;">
-  ★★★★★
-</div>
-<span style="font-size: 16px; color: black;">4.8/5.0 (376+ Reviews)</span>
+                 <div class="star-rating" style="display: flex; align-items: center; gap: 4px; font-family: inherit; font-size: 16px;  margin-bottom:1.6rem;">
+    <svg role="img" aria-labelledby="starRating" viewBox="0 0 251 46" xmlns="http://www.w3.org/2000/svg" width="120" height="24">
+        <title id="starRating" lang="en">4.6 out of five star rating on Trustpilot</title>
+        <!-- Star 1: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M0 46.33h46.376V0H0z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M39.534 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 2: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M51.248 46.33h46.376V0H51.248z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M90.781 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.838-11.799 3.837 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 3: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M102.532 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M142.067 19.711l-26.304 19.09 3.838-11.798-10.047-7.291h12.419l3.838-11.799 3.837 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 4: Full -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#00B67A" d="M153.815 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M193.348 19.711l-26.303 19.09 3.837-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+        <!-- Star 5: Half -->
+        <g class="tp-star">
+            <path class="tp-star__canvas" fill="#dcdce6" d="M205.064 46.33h46.376V0h-46.376z"></path>
+            <path class="tp-star__canvas--half" fill="#00B67A" d="M205.064 46.33h23.188V0h-23.188z"></path>
+            <path class="tp-star__shape" fill="#FFF" d="M244.597 19.711l-26.303 19.09 3.837-11.798-10.047-7.291h12.419l3.837-11.799 3.838 11.799h12.419zm-16.255 11.799l7.184-1.51 2.862 8.8-10.046-7.29z"></path>
+        </g>
+    </svg>
+    <span class="star-rating__text" style="margin-left: 6px;">Beloved by 1,700+ people</span>
 </div>
                   {{ 'home_page.onboarding.product_title' | t }}
                 {%- endunless -%}
