@@ -231,7 +231,6 @@
     },
     "featured_collection_G6ithg": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
         "title": "Bundel & get up up to 20% extra off!",
@@ -245,13 +244,14 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "custom_css": [
         "h2,.h2 {font-size: calc(var(--typeHeaderSize) * 0.73);}",
         ".index-section {margin: 55px 0;}"
       ],
       "settings": {
         "product_recommendations_heading": "Bundle & get up up to 20% extra off!",
-        "related_count": 5,
+        "related_count": 6,
         "products_per_row": 5
       }
     },
