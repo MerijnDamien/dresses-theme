@@ -15,19 +15,27 @@
         "heading_Tn7DQr": {
           "type": "heading",
           "settings": {
-            "title": "THE SUMMER SALE IS HERE!"
+            "title": "Save Your Money for a Rainy Day!"
+          }
+        },
+        "text_FMkKTb": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Bundle your items now and get an amazing discount. <br/>This is our end of summer SUPER SALE !</p>"
           }
         },
         "text_beT99t": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>10% OFF WHEN YOU BUY 2 ITEMS<br/>15% OFF WHEN YOU BUY 3 ITEMS<br/>20% OFF WHEN YOU BUY 4 OR MORE ITEMS</strong><br/><br/>*Discounts are automatically applied at checkout.</p>"
+            "text": "<p><strong>50% OFF WHEN YOU BUY 2 ITEMS<br/>1 FOR FREE WHEN YOU BUY 3 ITEMS<br/>2 FOR FREE OFF WHEN YOU BUY 4 OR MORE ITEMS</strong><br/><br/>*Discounts are automatically applied at checkout.</p>"
           }
         }
       },
       "block_order": [
         "heading_Tn7DQr",
+        "text_FMkKTb",
         "text_beT99t"
       ],
       "settings": {
