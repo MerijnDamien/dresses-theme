@@ -15,7 +15,7 @@
         "image_EbdELN": {
           "type": "image",
           "settings": {
-            "top_subheading": "Wedding Guests",
+            "top_subheading": "Jewellery COllection",
             "title": "",
             "title_size": 80,
             "subheading": "",
@@ -25,8 +25,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/a-fashion-editorial-photograph-featuring_5tE5NRZsQrGSVtqykNqloA_BO7FiCqtSFm2Oz61lAhYzg.jpg",
-            "image_mobile": "shopify://shop_images/a-fashion-editorial-photograph-featuring_5tE5NRZsQrGSVtqykNqloA_BO7FiCqtSFm2Oz61lAhYzg.jpg",
+            "image": "shopify://shop_images/524815210_1440702133800563_2251143040634065741_n.jpg",
+            "image_mobile": "shopify://shop_images/524815210_1440702133800563_2251143040634065741_n.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
