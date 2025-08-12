@@ -238,8 +238,8 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
-        "title": "Bundel & get up up to 20% extra off!",
-        "home_featured_products": "bestsellers",
+        "title": "Bundel & get up up to 50% extra off!",
+        "home_featured_products": "jewellery",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
