@@ -178,8 +178,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“Got it for a weekend trip and it’s perfect. Doesn’t wrinkle easily and feels light in the heat. Just throw it on and go.”</p>",
-            "image": "shopify://shop_images/40vc0z7Sf_mid.jpg",
+            "testimonial": "<p>\"Got this for a weekend trip and it's perfect. The <strong>design is so versatile</strong>, and it <strong>doesn't tarnish</strong>, so I can wear it anywhere—from the beach to a nice dinner. Just put it on and go.\"</p>",
+            "image": "shopify://shop_images/eTrubBIwT.jpg",
             "author": "Megan B.",
             "author_info": "Atlanta, GA"
           }
@@ -247,19 +247,6 @@
         "divider": false
       }
     },
-    "featured_collection_Yw9CTa": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
-      "settings": {
-        "title": "continue viewing collecting",
-        "home_featured_products": "jewellery",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -292,6 +279,19 @@
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
+      }
+    },
+    "featured_collection_Yw9CTa": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "continue viewing collecting",
+        "home_featured_products": "jewellery",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "recently-viewed": {
