@@ -168,8 +168,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“Seriously my new favorite dress. I want it in every color.”</p>",
-            "image": "shopify://shop_images/enhanced-image9-2.jpg",
+            "testimonial": "<p>“Seriously my new favorite ring. I want it in every color.”</p>",
+            "image": "shopify://shop_images/sCQaIZUPw.jpg",
             "author": "Sophie M.",
             "author_info": "Tampa, FL"
           }
@@ -188,8 +188,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“I wore this to a dinner party and felt amazing the whole night. It hugs in the right places but still feels comfy. The material is nicer than I expected for the price.\"</p>",
-            "image": "shopify://shop_images/3dItjMQ8T.jpg",
+            "testimonial": "<p>\"I wore this to a dinner party and it made me feel incredible all night. It <strong>catches the light just right</strong> and sits perfectly without being distracting. The <strong>quality is so much better</strong> than I expected for the price.\"</p>",
+            "image": "shopify://shop_images/uhki0N5N8.jpg",
             "author": "Emily R.",
             "author_info": "Austin, TX"
           }
