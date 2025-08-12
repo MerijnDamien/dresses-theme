@@ -247,6 +247,19 @@
         "divider": false
       }
     },
+    "featured_collection_Yw9CTa": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "continue viewing collecting",
+        "home_featured_products": "jewellery",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -376,6 +389,7 @@
     "featured_collection_G6ithg",
     "product-recommendations",
     "text_and_image_9YRb8F",
+    "featured_collection_Yw9CTa",
     "recently-viewed",
     "collection-return",
     "advanced_content_8xgThm",
