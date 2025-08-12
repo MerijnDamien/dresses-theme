@@ -1,0 +1,234 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_jzkTxR": {
+      "type": "slideshow",
+      "blocks": {
+        "image_EbdELN": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Wedding Guests",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/a-fashion-editorial-photograph-featuring_5tE5NRZsQrGSVtqykNqloA_BO7FiCqtSFm2Oz61lAhYzg.jpg",
+            "image_mobile": "shopify://shop_images/a-fashion-editorial-photograph-featuring_5tE5NRZsQrGSVtqykNqloA_BO7FiCqtSFm2Oz61lAhYzg.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_EbdELN"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_qBXxYq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tn7DQr": {
+          "type": "heading",
+          "settings": {
+            "title": "Get ready for wedding season!"
+          }
+        },
+        "text_beT99t": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Browse our gorgeous new lineup of dresses made for wedding guests — crafted to help you shine on that special day. For a limited time only, enjoy exclusive savings — shop early to grab your favorite look before it’s gone! 🤍</p><p><strong>10% EXTRA ON 2 ITEMS<br/>15% EXTRA ON 3 ITEMS<br/>20% EXTRA ON 4+  ITEMS</strong><br/><br/><em>*Discounts are automatically applied at checkout.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tn7DQr",
+        "text_beT99t"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 8,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": false,
+        "enable_sort": false
+      }
+    },
+    "text_with_icons_fhF3WA": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_GRbrQV": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "Free shipping",
+            "text": "<p>Across the United States.</p>"
+          }
+        },
+        "text_block_mDWgj9": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "money back",
+            "text": "<p>30-days return policy.</p>"
+          }
+        },
+        "text_block_97Paj6": {
+          "type": "text_block",
+          "settings": {
+            "icon": "sales-tag",
+            "title": "Quality guarantee",
+            "text": "<p>Made to feel as good as you look.</p>"
+          }
+        },
+        "text_block_PCwHxq": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "24/7 support",
+            "text": "<p>Always here to help.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_GRbrQV",
+        "text_block_mDWgj9",
+        "text_block_97Paj6",
+        "text_block_PCwHxq"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_jzkTxR",
+    "rich_text_qBXxYq",
+    "collection-header",
+    "promo-grid",
+    "main-collection",
+    "text_with_icons_fhF3WA"
+  ]
+}
