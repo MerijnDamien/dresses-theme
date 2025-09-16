@@ -13,9 +13,9 @@
       "type": "hero-video",
       "name": "t:sections.hero-video.presets.video_hero.name",
       "settings": {
-        "title": "50% OFF",
+        "title": "80% OFF",
         "title_size": 80,
-        "subheading": "Limited-Time Summer Sale – Up to 50% Off",
+        "subheading": "Limited-Time Anniversary sale – Up to 80% Off",
         "link_text": "SHOP NOW",
         "link": "shopify://collections/all-dresses",
         "color_accent": "rgba(0,0,0,0)",
