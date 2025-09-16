@@ -38,6 +38,27 @@
         "divider": false
       }
     },
+    "text_and_image_BLwVCE": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/image_2_5caa8617-e90b-44e5-9bde-53fabef1e0b5.webp",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Celebrating 26 Years of Noble Silhouettes",
+        "text": "<p></p><p>What started back in 1999 as a shared dream between two best friends has blossomed into <strong>Noble Silhouettes</strong>—a brand cherished by women across the country.<br/><br/>Now, 26 years later, we’re still side by side, still creating pieces that make women feel confident and beautiful—and we’re endlessly grateful for the women who’ve been on this journey with us.</p><p>Join us in celebrating: enjoy up to <strong>80% off</strong> during our Anniversary Sale.</p><p>With gratitude,<br/><br/>🤍 <strong>Nora & Claire</strong></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "featured_collections_WGkLAc": {
       "type": "featured-collections",
       "blocks": {
@@ -111,27 +132,6 @@
         "text_spacing": true,
         "direction": "left",
         "speed": 160
-      }
-    },
-    "text_and_image_BLwVCE": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify://shop_images/image_2_5caa8617-e90b-44e5-9bde-53fabef1e0b5.webp",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "",
-        "title": "Celebrating 26 Years of Noble Silhouettes",
-        "text": "<p></p><p>What started back in 1999 as a shared dream between two best friends has blossomed into <strong>Noble Silhouettes</strong>—a brand cherished by women across the country.<br/><br/>Now, 26 years later, we’re still side by side, still creating pieces that make women feel confident and beautiful—and we’re endlessly grateful for the women who’ve been on this journey with us.</p><p>Join us in celebrating: enjoy up to <strong>80% off</strong> during our Anniversary Sale.</p><p>With gratitude,<br/><br/>🤍 <strong>Nora & Claire</strong></p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
       }
     },
     "background_image_text_QNDHUA": {
@@ -229,10 +229,10 @@
   "order": [
     "hero_video_J3D9y8",
     "featured_collection_bxLbCR",
+    "text_and_image_BLwVCE",
     "featured_collections_WGkLAc",
     "featured_collections_ctkUxd",
     "scrolling_text_qcALDx",
-    "text_and_image_BLwVCE",
     "background_image_text_QNDHUA",
     "featured_collection_rQff8k",
     "text_with_icons_fWXNDe"
