@@ -155,6 +155,7 @@
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "title": "Contact us",
         "text": "",
