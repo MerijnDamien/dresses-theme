@@ -102,7 +102,7 @@
         "collection_xhPUcY": {
           "type": "collection",
           "settings": {
-            "collection": "all-dresses",
+            "collection": "dresses",
             "title": "Dresses",
             "focal_point": "top center"
           }
