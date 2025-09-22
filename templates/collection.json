@@ -9,6 +9,43 @@
  */
 {
   "sections": {
+    "slideshow_fqNCjB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_RQaMRt": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/a-sophisticated-lifestyle-advertisement-_IDSnQBuITeucf5bpJEtENA_VVJJWXfhRVG2Bs-ZaBOtzg_ed4258b3-161f-487d-a86a-ad4f4bcf8ed1.jpg",
+            "image_mobile": "shopify://shop_images/a-sophisticated-lifestyle-advertisement-_IDSnQBuITeucf5bpJEtENA_VVJJWXfhRVG2Bs-ZaBOtzg_a98106ca-ed09-4ec7-bbdb-b4d9d84db859.jpg",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_RQaMRt"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "250px",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "rich_text_qBXxYq": {
       "type": "rich-text",
       "blocks": {
@@ -135,6 +172,7 @@
     }
   },
   "order": [
+    "slideshow_fqNCjB",
     "rich_text_qBXxYq",
     "collection-header",
     "promo-grid",
