@@ -235,7 +235,7 @@
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
         "title": "Bundel & get up up to 20% extra off!",
-        "home_featured_products": "bestsellers",
+        "home_featured_products": "jackets",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
