@@ -233,8 +233,8 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image": "shopify://shop_images/asdf_43800c25-015e-4fd1-a39d-3d0c92442bc6.webp",
-        "image_mask": "none",
+        "image": "shopify://shop_images/a-sophisticated-lifestyle-advertisement-_IDSnQBuITeucf5bpJEtENA_VVJJWXfhRVG2Bs-ZaBOtzg_1.jpg",
+        "image_mask": "landscape",
         "image2_mask": "none",
         "subtitle": "",
         "title": "Celebrating 26 Years of Noble Silhouettes",
