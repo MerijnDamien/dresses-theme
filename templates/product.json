@@ -229,6 +229,28 @@
         "color_text": "#1c1d1d"
       }
     },
+    "text_and_image_WBgfAn": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify://shop_images/asdf_43800c25-015e-4fd1-a39d-3d0c92442bc6.webp",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Celebrating 26 Years of Noble Silhouettes",
+        "text": "<p>What started back in 1999 as a shared dream between two best friends has blossomed into <strong>Noble Silhouettes</strong>—a brand cherished by women across the country.<br/><br/>Now, 26 years later, we’re still side by side, still creating pieces that make women feel confident and beautiful—and we’re endlessly grateful for the women who’ve been on this journey with us.</p><p>Join us in celebrating: enjoy up to <strong>80% off</strong> during our Anniversary Sale.</p><p>With gratitude 🤍<br/><br/><strong>Nora & Claire</strong></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "featured_collection_G6ithg": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
@@ -368,6 +390,7 @@
     "scrolling_text_yqNX4Q",
     "sub",
     "testimonials_U6jWLR",
+    "text_and_image_WBgfAn",
     "featured_collection_G6ithg",
     "product-recommendations",
     "text_and_image_9YRb8F",
