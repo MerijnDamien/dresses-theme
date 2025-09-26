@@ -229,6 +229,19 @@
         "color_text": "#1c1d1d"
       }
     },
+    "featured_collection_G6ithg": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Bundle & get up up to 35% extra off!",
+        "home_featured_products": "bestsellers",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
     "text_and_image_WBgfAn": {
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
@@ -249,19 +262,6 @@
         "top_padding": true,
         "bottom_padding": true,
         "lazyload_images": true
-      }
-    },
-    "featured_collection_G6ithg": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
-      "settings": {
-        "title": "Bundle & get up up to 35% extra off!",
-        "home_featured_products": "bestsellers",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
       }
     },
     "product-recommendations": {
@@ -390,8 +390,8 @@
     "scrolling_text_yqNX4Q",
     "sub",
     "testimonials_U6jWLR",
-    "text_and_image_WBgfAn",
     "featured_collection_G6ithg",
+    "text_and_image_WBgfAn",
     "product-recommendations",
     "text_and_image_9YRb8F",
     "recently-viewed",
