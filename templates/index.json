@@ -110,8 +110,8 @@
         "collection_HHRaQ6": {
           "type": "collection",
           "settings": {
-            "collection": "bestsellers",
-            "title": "Bestsellers",
+            "collection": "footwear",
+            "title": "Footwear",
             "focal_point": "top center"
           }
         }
@@ -194,8 +194,8 @@
     "featured_collection_rQff8k": {
       "type": "featured-collection",
       "settings": {
-        "title": "Find Your Favorite Dress...",
-        "home_featured_products": "bestsellers",
+        "title": "Find Your Favorite Sweater...",
+        "home_featured_products": "winter-best-sellers",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
