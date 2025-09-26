@@ -59,7 +59,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>20% OFF WHEN YOU BUY 2 ITEMS<br/>25% OFF WHEN YOU BUY 3 ITEMS<br/>35% OFF WHEN YOU BUY 4 OR MORE ITEMS</strong><br/><br/>*Discounts are automatically applied at checkout.</p><p><strong>We're almost sold out — once they’re gone, they’re gone </strong>✨️</p>"
+            "text": "<p><strong>20% OFF WHEN YOU BUY 2 ITEMS<br/>25% OFF WHEN YOU BUY 3 ITEMS<br/>35% OFF WHEN YOU BUY 4 OR MORE ITEMS</strong><br/><br/>*Discounts are automatically applied at checkout and combine with other sale items.</p><p><strong>We're almost sold out — once they’re gone, they’re gone </strong>✨️</p>"
           }
         }
       },
