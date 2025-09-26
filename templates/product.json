@@ -64,7 +64,7 @@
         "custom_zr4pe3": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"updatetext\" style=\"background-color: #fbeae5; color: rgb(155, 41, 0); text-align: left; margin-bottom: 10px; border-radius: 5px;\" >\n      <p><strong>ANNIVERSARY SALE UPDATE:  </strong> <br><br>\n<ul class=\"bundle-tiers\">\n    <li><strong>Buy 2</strong> → Save 20% Extra</li>\n    <li><strong>Buy 3</strong> → Save 25% Extra</li>\n    <li><strong>Buy 4</strong> → <span>Save 30% Extra</span></li>\n  </ul>Due to high demand during our 26-year anniversary sale, only a limited number of items are left. If you can still click <strong>'Add to Cart,'</strong> it’s still available. </p>\n      </div>\n\n<style>\n.updatetext {\n    padding: 20px;\n    margin-top: -8px;\n    border-radius: 10px;\n}\n.updatetext p {\n    margin: 0;\n}\n</style>"
+            "code": "<div class=\"updatetext\" style=\"background-color: #fbeae5; color: rgb(155, 41, 0); text-align: left; margin-bottom: 10px; border-radius: 5px;\" >\n      <p><strong>ANNIVERSARY SALE UPDATE:  </strong> <br><br>\n<ul class=\"bundle-tiers\">\n    <li><strong>Buy 2</strong> → Save 20% Extra</li>\n    <li><strong>Buy 3</strong> → Save 25% Extra</li>\n    <li><strong>Buy 4</strong> → <span>Save 35% Extra</span></li>\n  </ul>Due to high demand during our 26-year anniversary sale, only a limited number of items are left. If you can still click <strong>'Add to Cart,'</strong> it’s still available. </p>\n      </div>\n\n<style>\n.updatetext {\n    padding: 20px;\n    margin-top: -8px;\n    border-radius: 10px;\n}\n.updatetext p {\n    margin: 0;\n}\n</style>"
           }
         },
         "description": {
