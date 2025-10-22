@@ -58,8 +58,8 @@
         "text_beT99t": {
           "type": "text",
           "settings": {
-            "enlarge_text": false,
-            "text": "<p>But not before one final celebration of everything <em>YOU</em> helped us build.</p><p>Her final wish wasn’t for herself — it was for <em>you.</em><br/><br/>For every woman who made her dream real, shared a kind message, or wore one of our designs with confidence — this farewell is her thank you.</p><p>To celebrate her journey, and yours, we’re offering our <strong>biggest sale ever — up to 70% off</strong> our entire collection.</p><p>Because beautiful stories deserve a beautiful ending.</p><p>🌸 <strong>Bundle & Save:</strong></p><ul><li><strong>Buy 2 items → 15% OFF</strong></li><li><strong>Buy 3 items → 25% OFF</strong></li><li><strong>Buy 4+ items → 35% OFF</strong><br/><br/>*Discounts are automatically applied at checkout and combine with other sale items.</li></ul><p><strong>We're almost sold out — once they’re gone, they’re gone </strong>✨️</p>"
+            "enlarge_text": true,
+            "text": "<p>But not before one final celebration of everything <em>YOU</em> helped us build.</p><p>Her final wish wasn’t for herself — it was for <em>you.</em></p>"
           }
         }
       },
@@ -73,6 +73,33 @@
         "divider": false
       }
     },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "heading": "🌸 Bundle & Save 🌸",
+            "text": ".....Buy 2 items → 15% OFF..... .....Buy 3 items → 20% OFF..... .....Buy 4 items → 30% OFF..... *Discounts are automatically applied at checKout*",
+            "link": "shopify://collections/warehouse-make-over-sale",
+            "label": "",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 21,
+        "space_above": false,
+        "space_below": true,
+        "lazyload_images": true
+      }
+    },
     "collection-header": {
       "type": "collection-header",
       "disabled": true,
@@ -81,55 +108,6 @@
         "collection_image_enable": true,
         "parallax": true,
         "parallax_direction": "top"
-      }
-    },
-    "promo-grid": {
-      "type": "promo-grid",
-      "blocks": {
-        "banner": {
-          "type": "banner",
-          "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
-            "link": "",
-            "label": "Shop now",
-            "color_tint": "#e95454",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "advanced": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "banner",
-        "advanced"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": false,
-        "lazyload_images": true
       }
     },
     "main-collection": {
@@ -174,8 +152,8 @@
   "order": [
     "slideshow_fqNCjB",
     "rich_text_qBXxYq",
-    "collection-header",
     "promo-grid",
+    "collection-header",
     "main-collection"
   ]
 }
