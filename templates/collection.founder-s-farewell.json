@@ -15,8 +15,8 @@
         "image_RQaMRt": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "",
+            "top_subheading": "Thank You",
+            "title": "For 26  Wonderful YEars ! ❤️",
             "title_size": 80,
             "subheading": "",
             "link": "",
@@ -25,8 +25,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Add_a_little_bit_of_body_text.png",
-            "image_mobile": "shopify://shop_images/Add_a_little_bit_of_body_text_1652d6a6-9237-4458-96be-335f920504e4.png",
+            "image": "shopify://shop_images/a-hyper-realistic-editorial-photograph-c_Sgks9RVZRN6hzalZYu6ntw_s1Ao3JcrRfydX3UnX0UK4g.jpg",
+            "image_mobile": "shopify://shop_images/a-hyper-realistic-editorial-photograph-c_Sgks9RVZRN6hzalZYu6ntw_s1Ao3JcrRfydX3UnX0UK4g.jpg",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
@@ -37,8 +37,8 @@
       ],
       "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
       "settings": {
-        "section_height": "natural",
-        "mobile_height": "400px",
+        "section_height": "550px",
+        "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
         "autoplay": true,
@@ -52,14 +52,14 @@
         "heading_Tn7DQr": {
           "type": "heading",
           "settings": {
-            "title": "OUR ANNIVERSARY SALE IS HERE ! BUT NOT FOR LONG..."
+            "title": "Our founder is stepping into her next chapter..."
           }
         },
         "text_beT99t": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>15% OFF WHEN YOU BUY 2 ITEMS<br/>20% OFF WHEN YOU BUY 3 ITEMS<br/>30% OFF WHEN YOU BUY 4 OR MORE ITEMS</strong><br/><br/>*Discounts are automatically applied at checkout and combine with other sale items.</p><p><strong>We're almost sold out — once they’re gone, they’re gone </strong>✨️</p>"
+            "text": "<p>But not before one final celebration of everything <em>YOU</em> helped us build.</p><p>Her final wish wasn’t for herself — it was for <em>you.</em><br/><br/>For every woman who made her dream real, shared a kind message, or wore one of our designs with confidence — this farewell is her thank you.</p><p>To celebrate her journey, and yours, we’re offering our <strong>biggest sale ever — up to 70% off</strong> our entire collection.</p><p>Because beautiful stories deserve a beautiful ending.</p><p>🌸 <strong>Bundle & Save:</strong></p><ul><li><strong>Buy 2 items → 15% OFF</strong></li><li><strong>Buy 3 items → 25% OFF</strong></li><li><strong>Buy 4+ items → 35% OFF</strong><br/><br/>*Discounts are automatically applied at checkout and combine with other sale items.</li></ul><p><strong>We're almost sold out — once they’re gone, they’re gone </strong>✨️</p>"
           }
         }
       },
