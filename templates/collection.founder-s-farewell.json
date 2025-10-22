@@ -59,7 +59,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>But not before one final celebration of everything <em>YOU</em> helped us build.</p><p>Her final wish wasn’t for herself — it was for <em>you.</em></p>"
+            "text": "<p>But not before one final celebration of everything <em><strong>YOU</strong></em><strong> </strong>helped us build.</p><p>Her final wish wasn’t for herself — it was for <em><strong>you.</strong></em></p>"
           }
         }
       },
