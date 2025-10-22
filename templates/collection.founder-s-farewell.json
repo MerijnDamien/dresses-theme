@@ -128,7 +128,10 @@
       "block_order": [
         "liquid_xdacFd"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "div {background: black; color: #fff; margin: auto; padding: 1px;}",
+        "#time {font-weight: bold;}"
+      ],
       "settings": {
         "full_width": false,
         "space_around": true,
