@@ -100,94 +100,16 @@
         "lazyload_images": true
       }
     },
-    "featured_collection_W76UUz": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
-      "settings": {
-        "title": "Her Favorites — Yours Too",
-        "home_featured_products": "bestsellers",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "haseeb_announcement_bar_4XPKqc": {
       "type": "haseeb-announcement-bar",
       "name": "Custom BF Timer Bar",
       "settings": {
         "background_color": "#000000",
-        "timer_color": "#FFFFFF",
-        "text_color": "#D31818",
+        "timer_color": "#ffffff",
+        "text_color": "#d31818",
         "before_text": "ENDS TONIGHT—",
         "after_text": "FOREVER GONE",
         "timer_duration": 5
-      }
-    },
-    "testimonials_KwCJtE": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_a864EW": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_jRDjqA": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_cckUUM": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_D7VACG": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        },
-        "testimonial_rFwcJp": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_a864EW",
-        "testimonial_jRDjqA",
-        "testimonial_cckUUM",
-        "testimonial_D7VACG",
-        "testimonial_rFwcJp"
-      ],
-      "name": "t:sections.testimonials.presets.testimonials.name",
-      "settings": {
-        "title": "Testimonials",
-        "align_text": "center",
-        "round_images": true,
-        "color_background": "#f9f9f9",
-        "color_text": "#1c1d1d"
       }
     },
     "collection-header": {
@@ -243,9 +165,7 @@
     "slideshow_fqNCjB",
     "rich_text_qBXxYq",
     "promo-grid",
-    "featured_collection_W76UUz",
     "haseeb_announcement_bar_4XPKqc",
-    "testimonials_KwCJtE",
     "collection-header",
     "main-collection"
   ]
