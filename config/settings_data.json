@@ -54,8 +54,8 @@
     "button_style": "square",
     "icon_weight": "2px",
     "icon_linecaps": "miter",
-    "product_save_amount": false,
-    "product_save_type": "percent",
+    "product_save_amount": true,
+    "product_save_type": "dollar",
     "vendor_enable": false,
     "quick_shop_enable": true,
     "quick_shop_text": "Quick view",
@@ -105,11 +105,6 @@
     },
     "content_for_index": [],
     "blocks": {
-      "3991723993231535834": {
-        "type": "shopify://apps/trackbee-connect/blocks/trackbee/4ee1d514-671e-48bf-bd4e-9373f4af089a",
-        "disabled": false,
-        "settings": {}
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
