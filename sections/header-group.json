@@ -84,6 +84,7 @@
       "block_order": [
         "liquid_eUbp4H"
       ],
+      "disabled": true,
       "custom_css": [
         "div {background: black; color: #fff; margin: auto; padding: 1px;}",
         "#time {font-weight: bold;}"
