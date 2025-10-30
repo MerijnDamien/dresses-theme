@@ -127,7 +127,8 @@
         ".product__price-savings {display: none !important;}",
         ".product-block {text-align: left;}",
         ".product-single__meta {text-align: left;}",
-        ".product-block {padding-left: 20px !important; padding-right: 20px !important;}"
+        ".product-block {padding-left: 20px !important; padding-right: 20px !important;}",
+        ".product-block.product-block--price {display: flex; align-items: end;}"
       ],
       "settings": {
         "sku_enable": false,
