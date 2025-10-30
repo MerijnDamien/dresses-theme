@@ -308,6 +308,15 @@ data-modal="{{ isModal }}">
                       {%- endunless -%}
                     </span>
 
+                    {%- if current_variant.compare_at_price > current_variant.price -%}
+  {%- assign save_amount = current_variant.compare_at_price | minus: current_variant.price -%}
+  {%- assign save_percent = save_amount | times: 100 | divided_by: current_variant.compare_at_price | round -%}
+  <span class="badge badge--save" style="background:#ff585d;color:#fff;padding:3px 8px;margin-left:8px;border-radius:14px;font-size:12px;font-weight:700;vertical-align:middle;">
+    Save {{ save_percent }}%
+  </span>
+{%- endif -%}
+
+
                     {%- if settings.product_save_amount -%}
                       {%- if settings.product_save_type == 'dollar' -%}
                         {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
