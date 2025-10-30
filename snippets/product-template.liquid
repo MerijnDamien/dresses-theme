@@ -311,7 +311,7 @@ data-modal="{{ isModal }}">
                     {%- if current_variant.compare_at_price > current_variant.price -%}
   {%- assign save_amount = current_variant.compare_at_price | minus: current_variant.price -%}
   {%- assign save_percent = save_amount | times: 100 | divided_by: current_variant.compare_at_price | round -%}
-  <span class="badge badge--save" style="background:#c20000;color:#fff;font-size:12px;font-weight:700;padding: 4px;">
+  <span class="badge badge--save" style="background:#ce1818;color:#fff;font-size:12px;font-weight:700;padding: 4px;">
     SAVE {{ save_percent }}% TODAY
   </span>
 {%- endif -%}
