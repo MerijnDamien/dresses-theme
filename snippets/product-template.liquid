@@ -311,9 +311,7 @@ data-modal="{{ isModal }}">
                     {%- if current_variant.compare_at_price > current_variant.price -%}
   {%- assign save_amount = current_variant.compare_at_price | minus: current_variant.price -%}
   {%- assign save_percent = save_amount | times: 100 | divided_by: current_variant.compare_at_price | round -%}
-  <span class="badge badge--save" style="background:#fff;color:#00b67a;font-size:14px;font-weight:700;border: 1px solid #00b67a;
-  padding: 4px;
-  border-radius: 14px;">
+  <span class="badge badge--save" style="background:#00b67a;color:#fff;font-size:14px;font-weight:700;border: 1px solid #00b67a;padding: 4px;border-radius: 14px;">
     SAVE {{ save_percent }}%
   </span>
 {%- endif -%}
