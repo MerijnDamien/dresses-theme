@@ -134,6 +134,11 @@
         "type": "shopify://apps/sales-shield/blocks/app-embed-block/4a7b4aad-fb04-4e82-bd92-c640d33d71b2",
         "disabled": true,
         "settings": {}
+      },
+      "3991723993231535834": {
+        "type": "shopify://apps/trackbee-connect/blocks/trackbee/4ee1d514-671e-48bf-bd4e-9373f4af089a",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
