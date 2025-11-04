@@ -375,6 +375,59 @@
         "text_block_APxypg",
         "text_block_MGXpwp"
       ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "text_with_icons_EXHfkx": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_kCfpmC": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "Free shipping",
+            "text": "<p>Enjoy free shipping anywhere in the U.S. We deliver right to your door—quickly, safely, and at no extra cost.<br/><br/></p>"
+          }
+        },
+        "text_block_EyjfGC": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "money back guarantee",
+            "text": "<p>30-days return policy. Simply return your items within 30 days.</p>"
+          }
+        },
+        "text_block_FybJcM": {
+          "type": "text_block",
+          "settings": {
+            "icon": "sales-tag",
+            "title": "Quality You can trust",
+            "text": "<p>Crafted with care to look and feel beautiful. Each piece is designed for comfort, confidence, and long-lasting wear.<br/><br/></p>"
+          }
+        },
+        "text_block_c6JYtK": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "24/7 customer care",
+            "text": "<p>ready to help—day or night.<strong> </strong>Whether you have a question or need assistance, we’re always here for you.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_kCfpmC",
+        "text_block_EyjfGC",
+        "text_block_FybJcM",
+        "text_block_c6JYtK"
+      ],
       "settings": {
         "title": "",
         "align_text": "center",
@@ -398,6 +451,7 @@
     "recently-viewed",
     "collection-return",
     "advanced_content_8xgThm",
-    "text_with_icons_mJ3Wt9"
+    "text_with_icons_mJ3Wt9",
+    "text_with_icons_EXHfkx"
   ]
 }
