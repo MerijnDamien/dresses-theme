@@ -211,31 +211,31 @@
           "settings": {
             "icon": "truck",
             "title": "Free shipping",
-            "text": "<p>Across the United States.</p>"
+            "text": "<p>Enjoy free, fast shipping anywhere in the U.S. We deliver right to your door—quickly, safely, and at no extra cost.<br/><br/></p>"
           }
         },
         "text_block_aXdQUe": {
           "type": "text_block",
           "settings": {
             "icon": "package",
-            "title": "money back",
-            "text": "<p>30-days return policy.</p>"
+            "title": "money back guarantee",
+            "text": "<p>30-days return policy. Simply return your items within 30 days.</p>"
           }
         },
         "text_block_XY3ck9": {
           "type": "text_block",
           "settings": {
             "icon": "sales-tag",
-            "title": "Quality guarantee",
-            "text": "<p>Made to feel as good as you look.</p>"
+            "title": "Quality You can trust",
+            "text": "<p>Crafted with care to look and feel beautiful. Each piece is designed for comfort, confidence, and long-lasting wear.<br/><br/></p>"
           }
         },
         "text_block_p7J4TB": {
           "type": "text_block",
           "settings": {
             "icon": "chat",
-            "title": "24/7 support",
-            "text": "<p>Always here to help.</p>"
+            "title": "24/7 customer care",
+            "text": "<p>ready to help—day or night.<strong> </strong>Whether you have a question or need assistance, we’re always here for you.<br/><br/></p>"
           }
         }
       },
