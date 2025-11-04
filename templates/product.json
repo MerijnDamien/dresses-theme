@@ -223,7 +223,7 @@
         ".testimonials-section {padding: 32.5px 0;}"
       ],
       "settings": {
-        "title": "what our customer says!",
+        "title": "what our customer are saying!",
         "align_text": "center",
         "round_images": true,
         "color_background": "#f9f9f9",
