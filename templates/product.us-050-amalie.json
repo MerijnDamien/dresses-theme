@@ -179,6 +179,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>\"This sweater is absolutely lovely. The pink color is so cheerful and flattering — perfect for spring! The fit is just right, and it feels soft against my skin. I’m already thinking of getting the grey next.\"</p>",
+            "image": "shopify://shop_images/7_7844a06a-4190-4809-b026-56f22b6a8eef.webp",
             "author": "Linda M.",
             "author_info": "Asheville, NC"
           }
@@ -188,6 +189,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>\"Very comfortable and stylish. The material feels high quality and washes really well. Fits true to size and looks great with jeans or slacks. Great everyday piece!\"</p>",
+            "image": "shopify://shop_images/3_d210d51d-d36d-41fb-9753-ec410c1488cf.webp",
             "author": "Patricia R",
             "author_info": "Spokane, WA"
           }
@@ -206,6 +208,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>\"I first bought the white with lace and loved it so much I came back for the black too. The lace detail adds such a feminine touch. Great quality and flattering fit — very classy look!\"</p>",
+            "image": "shopify://shop_images/1_88a96e1e-9edf-4e8f-80a3-4eea3c7082b2.webp",
             "author": "Diane K.",
             "author_info": "Sarasota, FL"
           }
@@ -214,7 +217,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "4-stars",
-            "testimonial": "<p>\"Really like the <strong>grey</strong> color — soft and neutral, goes with everything. The fabric feels nice and breathable, great for layering in cooler weather. Sleeves are a bit long but not a dealbreaker.\"</p>",
+            "testimonial": "<p>\"Really like the grey color — soft and neutral, goes with everything. The fabric feels nice and breathable, great for layering in cooler weather. Sleeves are a bit long but not a dealbreaker.\"</p>",
+            "image": "shopify://shop_images/13_926179b5-3e1f-4fc5-99a2-4e7e2fc83e1e.webp",
             "author": "Rebecca L.",
             "author_info": "Denver, CO"
           }
@@ -224,6 +228,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>\"Wonderful quality and very flattering cut. It’s easy to dress up or down, and it keeps its shape after washing. Fits perfectly and feels so comfortable. Definitely worth the price!\"</p>",
+            "image": "shopify://shop_images/Kopie_van_review_met_maten_1.webp",
             "author": "Karen P.",
             "author_info": "Albany, NY"
           }
@@ -233,6 +238,7 @@
           "settings": {
             "icon": "4-stars",
             "testimonial": "<p>\"The blue is gorgeous — bright but not too bold. The zipper detail makes it look more polished than a regular pullover. I’ve gotten lots of compliments already. Thinking of ordering the white next!\"</p>",
+            "image": "shopify://shop_images/10_0a27b8d9-13a6-4c14-b7b0-97a8024b43dc.webp",
             "author": "Susan H.",
             "author_info": "San Diego, CA"
           }
