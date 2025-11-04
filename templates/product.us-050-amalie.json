@@ -169,54 +169,74 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“Seriously my new favorite sweater. I want it in every color.”</p>",
-            "author": "Sophie M.",
-            "author_info": "Tampa, FL"
+            "testimonial": "<p>\"This sweater is absolutely lovely. The pink color is so cheerful and flattering — perfect for spring! The fit is just right, and it feels soft against my skin. I’m already thinking of getting the grey next.\"</p>",
+            "author": "Linda M.",
+            "author_info": "Asheville, NC"
           }
         },
-        "testimonial_ULV7PN": {
+        "testimonial_EQfiW3": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“I got this for the cooler season and it’s just right. It keeps me warm without feeling heavy, layers beautifully, and still looks put-together. Easy to wear and perfect for everyday comfort.”</p>",
-            "author": "Megan B.",
-            "author_info": "Atlanta, GA"
+            "testimonial": "<p>\"Very comfortable and stylish. The material feels high quality and washes really well. Fits true to size and looks great with jeans or slacks. Great everyday piece!\"</p>",
+            "author": "Patricia R",
+            "author_info": "Spokane, WA"
           }
         },
-        "testimonial_8PteBh": {
+        "testimonial_LQdACE": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“I wore this to a holiday dinner and felt wonderful the whole evening. It’s flattering yet comfortable, and the fabric feels warm and much nicer than I expected for the price.”</p>",
-            "author": "Emily R.",
+            "testimonial": "<p>\"I got this in light yellow, and it’s such a pretty, gentle shade — perfect for warmer days. I sized up for a looser fit and it drapes beautifully. Lightweight but cozy. Highly recommend!\"</p>",
+            "author": "Janet T.",
             "author_info": "Austin, TX"
           }
         },
-        "testimonial_gzjPQX": {
+        "testimonial_zb96wA": {
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“I ordered this on a whim and I’m so glad I did. It’s soft, flattering, and works beautifully for the cooler season — easy to layer and dress up or down. I’ve already worn it a couple of times this week!”</p>",
-            "author": "Rachel D.",
-            "author_info": "Salt Lake City, UT"
+            "testimonial": "<p>\"I first bought the white with lace and loved it so much I came back for the black too. The lace detail adds such a feminine touch. Great quality and flattering fit — very classy look!\"</p>",
+            "author": "Diane K.",
+            "author_info": "Sarasota, FL"
           }
         },
-        "testimonial_qTYWbY": {
+        "testimonial_bADFWC": {
           "type": "testimonial",
           "settings": {
             "icon": "4-stars",
-            "testimonial": "<p>“This jacket is beautiful and the fit is just right. It came with a couple of wrinkles, but hanging it up took care of them quickly. It’s warm, flattering, and perfect for cooler days — no complaints at all.”</p>",
-            "author": "Amber T.",
-            "author_info": "Charlotte, NC"
+            "testimonial": "<p>\"Really like the <strong>grey</strong> color — soft and neutral, goes with everything. The fabric feels nice and breathable, great for layering in cooler weather. Sleeves are a bit long but not a dealbreaker.\"</p>",
+            "author": "Rebecca L.",
+            "author_info": "Denver, CO"
+          }
+        },
+        "testimonial_U9Wg4y": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>\"Wonderful quality and very flattering cut. It’s easy to dress up or down, and it keeps its shape after washing. Fits perfectly and feels so comfortable. Definitely worth the price!\"</p>",
+            "author": "Karen P.",
+            "author_info": "Albany, NY"
+          }
+        },
+        "testimonial_KHWgYT": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4-stars",
+            "testimonial": "<p>\"The blue is gorgeous — bright but not too bold. The zipper detail makes it look more polished than a regular pullover. I’ve gotten lots of compliments already. Thinking of ordering the white next!\"</p>",
+            "author": "Susan H.",
+            "author_info": "San Diego, CA"
           }
         }
       },
       "block_order": [
         "testimonial_tLHexG",
-        "testimonial_ULV7PN",
-        "testimonial_8PteBh",
-        "testimonial_gzjPQX",
-        "testimonial_qTYWbY"
+        "testimonial_EQfiW3",
+        "testimonial_LQdACE",
+        "testimonial_zb96wA",
+        "testimonial_bADFWC",
+        "testimonial_U9Wg4y",
+        "testimonial_KHWgYT"
       ],
       "custom_css": [
         ".testimonials-slide {padding: 15px 0 30px;}",
