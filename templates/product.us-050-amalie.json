@@ -165,6 +165,15 @@
     "testimonials_U6jWLR": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_jf444r": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>“Seriously my new favorite sweater. I want it in every color.”</p>",
+            "author": "Sophie M.",
+            "author_info": "Tampa, FL"
+          }
+        },
         "testimonial_tLHexG": {
           "type": "testimonial",
           "settings": {
@@ -230,6 +239,7 @@
         }
       },
       "block_order": [
+        "testimonial_jf444r",
         "testimonial_tLHexG",
         "testimonial_EQfiW3",
         "testimonial_LQdACE",
