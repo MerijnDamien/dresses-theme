@@ -19,7 +19,7 @@
           "settings": {
             "show_footer_title": false,
             "title": "",
-            "text": "<p></p><p><strong>Monday - Saturday:</strong> 10:00 AM - 8:00 PM<br/><strong>Sunday:</strong> 12:00 PM - 5:00 PM<br/><br/>Do you have any questions? Then please contact our customer service team by e-mail: info@noble-silhouettes.com<br/></p>",
+            "text": "<p><strong>Monday - Saturday:</strong> 10:00 AM - 8:00 PM<br/><strong>Sunday:</strong> 12:00 PM - 5:00 PM<br/><br/>Do you have any questions? Then please contact our customer service team by e-mail: info@..<br/></p>",
             "container_width": 30
           }
         },
@@ -46,7 +46,7 @@
           "settings": {
             "show_footer_title": false,
             "title": "",
-            "text": "<p>✔ Customer service always at your disposal (response in less than24h)<br/>✔ Over 10 years' experience in women's fashion.<br/>✔ Free delivery throughout the united states</p>",
+            "text": "<p>✔ Customer service always at your disposal (response in less than24h)<br/>✔ 5 years' experience in women's fashion.<br/>✔ Free delivery across Canada</p>",
             "container_width": 30
           }
         }
