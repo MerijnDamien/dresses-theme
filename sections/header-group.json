@@ -43,6 +43,14 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "announcement_p3WtYV": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Shipping across canada",
+            "link_text": "Today only!",
+            "link": ""
+          }
+        },
         "announcement_xyWT4R": {
           "type": "announcement",
           "settings": {
@@ -58,20 +66,12 @@
             "link_text": "30-Day money back guarantee",
             "link": ""
           }
-        },
-        "announcement_p3WtYV": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free Shipping across canada",
-            "link_text": "Today only!",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "announcement_p3WtYV",
         "announcement_xyWT4R",
-        "announcement_c3DzH8",
-        "announcement_p3WtYV"
+        "announcement_c3DzH8"
       ],
       "settings": {
         "announcement_compact": true
