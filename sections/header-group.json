@@ -17,8 +17,10 @@
         "header-0": {
           "type": "logo",
           "settings": {
-            "desktop_logo_width": 200,
-            "mobile_logo_width": 160
+            "logo": "shopify://shop_images/City_Name_0c51c4d1-eb24-4788-99c0-15e4cbdd57af.png",
+            "logo-inverted": "shopify://shop_images/City_Name_0c51c4d1-eb24-4788-99c0-15e4cbdd57af.png",
+            "desktop_logo_width": 300,
+            "mobile_logo_width": 190
           }
         }
       },
@@ -29,7 +31,7 @@
         "main_menu_link_list": "main-menu",
         "hover_menu": true,
         "mega_menu_images": false,
-        "main_menu_alignment": "center",
+        "main_menu_alignment": "center-split",
         "header_style": "sticky",
         "sticky_index": false,
         "sticky_collection": false,
