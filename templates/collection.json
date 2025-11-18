@@ -51,8 +51,6 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Add_a_little_bit_of_body_text.png",
-            "image_mobile": "shopify://shop_images/Add_a_little_bit_of_body_text_1652d6a6-9237-4458-96be-335f920504e4.png",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
@@ -86,7 +84,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>CELEBRATING 26 YEARS OF TIMELESS STYLE</strong></p><p>I, Nora – started this little dream alongside my best friend, Clairy, back in 1999.</p><p>There were days we doubted ourselves – nights we wondered if we could really make it. But with every woman who believed in us, you helped us build something far beyond what we ever imagined.</p><p>Today we celebrate our brand’s 26th anniversary — and this is our way of saying thank you. For being part of our journey, our growth, and our story. ❤️</p><p>🎃 <strong>Halloween & Anniversary Special!</strong> 🎃</p><p>As part of our <strong>Halloween celebration and 26th Anniversary</strong>, we’re giving you <strong>even more ways to save</strong> on your favorite styles:</p><p>🕸 <strong>Buy 2 & Save 15%</strong><br/><br/>🕸 <strong>Buy 3 & Save 20%</strong><br/><br/>🕸 <strong>Buy 4 & Save 30%</strong></p><p>✨ Discounts apply automatically at checkout.<br/><br/>💫 Mix and match any items from our <strong>Halloween + Anniversary Sale Collections</strong>.</p><p>With love,<br/><br/><strong>Nora & Clairy</strong> 🧡</p>"
+            "text": "<p>I’m Nora — five years ago I started this little boutique to support my daughter Lily’s dream in fashion.<br/>Thanks to you, what began as a small mother-daughter project has grown into something more meaningful than we ever imagined.<br/><br/>Today, as we celebrate our 5-year anniversary, this sale is our way of saying thank you — for being part of our journey, our growth, and our story. ❤<br/><br/>With love,<br/>Nora & Lily</p>"
           }
         }
       },
