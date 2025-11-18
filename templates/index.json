@@ -77,8 +77,8 @@
         "text_MU6ptY": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "enlarge_text": false,
+            "text": "<p>I’m Nora — five years ago I started this little boutique to support my daughter Lily’s dream in fashion.<br/>Thanks to you, what began as a small mother-daughter project has grown into something more meaningful than we ever imagined.<br/><br/>Today, as we celebrate our 5-year anniversary, this sale is our way of saying thank you — for being part of our journey, our growth, and our story. ❤<br/><br/><strong>With love,<br/>Nora & Lily</strong></p>"
           }
         }
       },
