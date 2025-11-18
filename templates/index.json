@@ -15,17 +15,16 @@
         "image_MV8XLt": {
           "type": "image",
           "settings": {
-            "top_subheading": "",
-            "title": "80% OFF",
-            "title_size": 80,
-            "subheading": "Limited-Time Anniversary sale – Up to 80% Off",
+            "top_subheading": "EMBRACE YOUR STYLE",
+            "title": "Pre-black friday sale",
+            "title_size": 63,
+            "subheading": "WHILE IT LASTS!",
             "link": "",
             "link_text": "Shop Now",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/a-lifestyle-advertisement-for-noble-silh_eQWFoDMAToOllK4DLqhcvQ_VUQslgqqRFKeA1J14oL-lg.jpg",
+            "color_accent": "#fcf1e6",
+            "text_align": "vertical-bottom horizontal-center",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -78,7 +77,6 @@
     "text_and_image_BLwVCE": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify://shop_images/asdf_43800c25-015e-4fd1-a39d-3d0c92442bc6.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "",
