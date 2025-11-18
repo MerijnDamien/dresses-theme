@@ -25,6 +25,8 @@
             "link_text_2": "",
             "color_accent": "#fcf1e6",
             "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/OkVQPou0RAOoOph2zsKsxw.webp",
+            "image_mobile": "shopify://shop_images/OQycE27HTT-CzZLyrtzJtg.webp",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
