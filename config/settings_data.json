@@ -21,8 +21,8 @@
     "color_large_image_bg": "#0f0f0f",
     "color_header": "#ffffff",
     "color_header_text": "#000000",
-    "color_announcement": "#000000",
-    "color_announcement_text": "#ffffff",
+    "color_announcement": "#fcf1e6",
+    "color_announcement_text": "#000000",
     "color_footer": "#000000",
     "color_footer_text": "#ffffff",
     "color_drawer_background": "#ffffff",
@@ -84,15 +84,15 @@
     "cart_drawer_upsell_type": "complementary",
     "cart_drawer_recommendations_products_to_show": 2,
     "cart_drawer_recommendations_products_to_recommend": 2,
-    "breadcrumb": false,
-    "checkout_accent_color": "#111111",
-    "checkout_body_background_color": "#ffffff",
-    "checkout_button_color": "#111111",
-    "checkout_error_color": "#ff6d6d",
-    "checkout_input_background_color_mode": "white",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fafafa",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "breadcrumb": false,
     "sections": {
       "collection-header": {
         "type": "collection-header",
@@ -103,44 +103,7 @@
         }
       }
     },
-    "content_for_index": [],
-    "blocks": {
-      "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {}
-      },
-      "17920835415960095625": {
-        "type": "shopify://apps/swatch-king/blocks/variant-swatch-king/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
-        "disabled": false,
-        "settings": {
-          "alignment": "left",
-          "swatch_location": "After price",
-          "switch_on_hover": true,
-          "preselect_variant": false
-        }
-      },
-      "13223602749629917723": {
-        "type": "shopify://apps/kaching-cart/blocks/embed/7705621e-3c0f-4e97-9d29-5c8528b19fb7",
-        "disabled": false,
-        "settings": {}
-      },
-      "17198465164502963513": {
-        "type": "shopify://apps/parcel-panel/blocks/app.embed/fc785c3f-90e0-4c98-a20c-7cde9ba5e4b5",
-        "disabled": false,
-        "settings": {}
-      },
-      "15445754650112992936": {
-        "type": "shopify://apps/sales-shield/blocks/app-embed-block/4a7b4aad-fb04-4e82-bd92-c640d33d71b2",
-        "disabled": true,
-        "settings": {}
-      },
-      "3991723993231535834": {
-        "type": "shopify://apps/trackbee-connect/blocks/trackbee/4ee1d514-671e-48bf-bd4e-9373f4af089a",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Modern": {
