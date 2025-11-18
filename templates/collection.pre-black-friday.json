@@ -1,0 +1,208 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "advanced_content_BcyYtT": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_hJmRgf": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<div id=\"countdown-timer\" style=\"font-size: 15px; text-align: center;     font-family: var(--typeBasePrimary), var(--typeBaseFallback);\" >\n  <span id=\"time\">00:00:00</span> Last hours of our Anniversary Sale!\n</div>\n\n<script>\n  // Set your target date/time (format: YYYY-MM-DDTHH:MM:SS)\n  const targetDate = new Date(\"2026-08-10T02:00:00\").getTime();\n\n  const countdown = document.getElementById(\"time\");\n\n  const updateCountdown = setInterval(function () {\n    const now = new Date().getTime();\n    const distance = targetDate - now;\n\n    if (distance <= 0) {\n      clearInterval(updateCountdown);\n      countdown.innerHTML = \"Expired\";\n      return;\n    }\n\n    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));\n    const seconds = Math.floor((distance % (1000 * 60)) / 1000);\n\n    countdown.innerHTML = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;\n  }, 1000);\n</script>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_hJmRgf"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "div {background: black; color: #fff; margin: auto; padding: 1px;}",
+        "#time {font-weight: bold;}"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "slideshow_fqNCjB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_RQaMRt": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_RQaMRt"
+      ],
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "400px",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_qBXxYq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tn7DQr": {
+          "type": "heading",
+          "settings": {
+            "title": "Celebrating 5 Years of style & togetherness"
+          }
+        },
+        "text_beT99t": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>I’m Nora — five years ago I started this little boutique to support my daughter Lily’s dream in fashion.<br/><br/>Thanks to you, what began as a small mother-daughter project has grown into something more meaningful than we ever imagined.</p><p>Today, as we celebrate our 5-year anniversary, this sale is our way of saying thank you — for being part of our journey, our growth, and our story. ❤</p><p><strong>As a thank-you, our special anniversary bundle discounts:</strong></p><ul><li><strong>Buy 2 & Save 10% EXTRA</strong></li><li><strong>Buy 3 & Save 15% EXTRA</strong></li><li><strong>Buy 4 & Save 20% EXTRA</strong><br/></li></ul><p><em>Discounts apply automatically at checkout. Mix and match any items from our entire store.</em></p><p>With love,<br/><strong>Nora & Lily</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tn7DQr",
+        "text_beT99t"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 8,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "collapsed": false,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": false,
+        "enable_sort": false
+      }
+    }
+  },
+  "order": [
+    "advanced_content_BcyYtT",
+    "slideshow_fqNCjB",
+    "rich_text_qBXxYq",
+    "collection-header",
+    "promo-grid",
+    "main-collection"
+  ]
+}
