@@ -247,7 +247,8 @@
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
       "settings": {
-        "image_mask": "landscape",
+        "image": "shopify://shop_images/OQycE27HTT-CzZLyrtzJtg.webp",
+        "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
         "title": "EARLY ACCESS — OUR ANNIVERSARY PRE-BLACK FRIDAY EVENT",
@@ -280,6 +281,7 @@
     "text_and_image_9YRb8F": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify://shop_images/Whisk_6f36cce45f2880e9eec455c9776fdb49dr.png",
         "image_mask": "square",
         "image2_mask": "portrait",
         "subtitle": "",
