@@ -232,6 +232,33 @@
         "divider": false
       }
     },
+    "faq_hzhpmW": {
+      "type": "faq",
+      "blocks": {
+        "question_anyEEp": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "text": "<p>We offer <strong>free shipping within Canada</strong>, and orders typically arrive within <strong>3–7 business days</strong>. Remote areas may take slightly longer.</p>"
+          }
+        },
+        "question_ci4tTh": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return the item(s)?",
+            "text": "<p>You can return your item within 30 days of delivery. Simply <strong>email our support team</strong>, and we’ll handle the return or exchange for you quickly and professionally.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_anyEEp",
+        "question_ci4tTh"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "Frequently asked questions"
+      }
+    },
     "text_with_icons_fWXNDe": {
       "type": "text-with-icons",
       "blocks": {
@@ -303,6 +330,7 @@
     "scrolling_text_qcALDx",
     "background_image_text_QNDHUA",
     "featured_collection_rQff8k",
+    "faq_hzhpmW",
     "text_with_icons_fWXNDe"
   ]
 }
