@@ -140,7 +140,7 @@
           "type": "collection",
           "settings": {
             "collection": "footwear",
-            "title": "Footwear",
+            "title": "Shoes",
             "focal_point": "top center"
           }
         }
@@ -223,7 +223,7 @@
     "featured_collection_rQff8k": {
       "type": "featured-collection",
       "settings": {
-        "title": "Find Your Favorite Sweater...",
+        "title": "Pre-black friday sale",
         "home_featured_products": "winter-best-sellers",
         "per_row": 4,
         "rows": 1,
