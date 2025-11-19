@@ -246,7 +246,7 @@
           "type": "question",
           "settings": {
             "title": "Can I return the item(s)?",
-            "text": "<p>You can return your item within 30 days of delivery. Simply <strong>email our support team</strong>, and we’ll handle the return or exchange for you quickly and professionally.</p>"
+            "text": "<p>You can return your item within 30 days of delivery. Simply <strong>email our support team</strong>, and we’ll handle the return or exchange for you quickly and professionally.<br/><strong>Email: Info@nora-lilly.com</strong></p>"
           }
         },
         "question_qtpBPU": {
@@ -260,7 +260,14 @@
           "type": "question",
           "settings": {
             "title": "Will I receive a confirmation email after placing an order?",
-            "text": "<p>Yes, once you've placed your order, a confirmation will be sent to your email inbox. If you don’t see it, feel free to reach out to our customer service team, we’re happy to help you right away.<br/><br/></p>"
+            "text": "<p>Yes, once you've placed your order, a confirmation will be sent to your email inbox. If you don’t see it, feel free to reach out to our customer service team, we’re happy to help you right away.<br/><strong>Email: Info@nora-lilly.com</strong></p>"
+          }
+        },
+        "question_aA8fz4": {
+          "type": "question",
+          "settings": {
+            "title": "How does sizing work?",
+            "text": "<p>Every item can fit a little differently, so <strong>we include a clear size chart on each product page</strong> to help you choose the right fit. If you're unsure or would like a bit of guidance, you’re always welcome to email our support team — we’re happy to help you find the size that feels most comfortable for you.</p>"
           }
         }
       },
@@ -268,7 +275,8 @@
         "question_anyEEp",
         "question_ci4tTh",
         "question_qtpBPU",
-        "question_hyJDVD"
+        "question_hyJDVD",
+        "question_aA8fz4"
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
