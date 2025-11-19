@@ -25,7 +25,7 @@
             "link_text_2": "",
             "color_accent": "#fcf1e6",
             "text_align": "vertical-bottom horizontal-center",
-            "image": "shopify://shop_images/OkVQPou0RAOoOph2zsKsxw.webp",
+            "image": "shopify://shop_images/Whisk_d5d17f732384eb29e7047430c6a29375dr.png",
             "image_mobile": "shopify://shop_images/OQycE27HTT-CzZLyrtzJtg.webp",
             "parallax_direction": "top",
             "overlay_opacity": 0
@@ -80,7 +80,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>I’m Nora — five years ago I started this little boutique to support my daughter Lily’s dream in fashion.<br/>Thanks to you, what began as a small mother-daughter project has grown into something more meaningful than we ever imagined.<br/><br/>Today, as we celebrate our 5-year anniversary, this sale is our way of saying thank you — for being part of our journey, our growth, and our story. ❤<br/><br/><strong>With love,<br/>Nora & Lily</strong></p>"
+            "text": "<p>I’m Nora — five years ago I started this little boutique to support my daughter Lily’s dream in fashion.<br/>Thanks to you, what began as a small mother-daughter project has grown into something more meaningful than we ever imagined.<br/><br/>Today, as we celebrate our 5-year anniversary, this sale is our way of saying thank you — for being part of our journey, our growth, and our story. ❤<br/><br/>With love,<strong><br/>Nora & Lily</strong></p>"
           }
         }
       },
@@ -132,7 +132,7 @@
           "type": "collection",
           "settings": {
             "collection": "winter-best-sellers",
-            "title": "Winter Best-Sellers",
+            "title": "Sweaters & Cardigans",
             "focal_point": "top center"
           }
         },
