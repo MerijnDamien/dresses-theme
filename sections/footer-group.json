@@ -82,7 +82,7 @@
         "liquid_t6M7Ut"
       ],
       "custom_css": [
-        "div {background-color: black; margin: 0; display: flex; justify-content: center; gap: 0.5rem;}",
+        "div {background-color: #fcf1e6; margin: 0; display: flex; justify-content: center; gap: 0.5rem;}",
         "@media screen and (max-width: 800px) {div {flex-wrap: wrap; }}"
       ],
       "settings": {
