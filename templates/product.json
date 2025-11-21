@@ -128,7 +128,8 @@
         ".product-block {text-align: left;}",
         ".product-single__meta {text-align: left;}",
         ".product-block {padding-left: 20px !important; padding-right: 20px !important;}",
-        ".product-block.product-block--price {display: flex; align-items: end;}"
+        ".product-block.product-block--price {display: flex; align-items: end;}",
+        "span.star-rating__text {font-size: 14px;}"
       ],
       "settings": {
         "sku_enable": false,
