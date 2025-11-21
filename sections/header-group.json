@@ -56,8 +56,8 @@
         "announcement_xyWT4R": {
           "type": "announcement",
           "settings": {
-            "text": "Pre-black friday sale",
-            "link_text": "Ends tonight!",
+            "text": "Black friday sale",
+            "link_text": "Ends Soon!",
             "link": ""
           }
         },
