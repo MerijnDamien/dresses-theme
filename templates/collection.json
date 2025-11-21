@@ -53,6 +53,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Whisk_d5d17f732384eb29e7047430c6a29375dr.png",
+            "image_mobile": "shopify://shop_images/OQycE27HTT-CzZLyrtzJtg.webp",
             "parallax_direction": "left",
             "overlay_opacity": 0
           }
