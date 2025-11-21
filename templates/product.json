@@ -224,7 +224,7 @@
       ],
       "settings": {
         "title": "what our customer are saying!",
-        "align_text": "center",
+        "align_text": "left",
         "round_images": true,
         "color_background": "#f9f9f9",
         "color_text": "#1c1d1d"
@@ -251,12 +251,12 @@
         "image_mask": "square",
         "image2_mask": "none",
         "subtitle": "",
-        "title": "EARLY ACCESS — OUR ANNIVERSARY PRE-BLACK FRIDAY EVENT",
+        "title": "BLACK FRIDAY — CELEBRATING 5 YEARS OF OUR MOTHER–DAUGHTER JOURNEY",
         "text": "<p>I’m Nora — five years ago I started this little boutique to support my daughter Lilly’s dream in fashion.<br/><br/>Thanks to you, what began as a small mother-daughter project has grown into something more meaningful than we ever imagined.</p><p>Today, as we celebrate our 5-year anniversary, our <strong>Pre–Black Friday Sale</strong> is our way of saying thank you — for being part of our journey, our growth, and our story. ❤</p><p>With love,<br/><strong>Nora & Lilly</strong></p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
-        "align_text": "center",
+        "align_text": "left",
         "image_width": "50",
         "layout": "right",
         "divider": false,
