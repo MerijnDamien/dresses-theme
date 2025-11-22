@@ -387,57 +387,6 @@
         "divider": false
       }
     },
-    "faq_GaqAnd": {
-      "type": "faq",
-      "blocks": {
-        "question_dNXGaR": {
-          "type": "question",
-          "settings": {
-            "title": "How long does shipping take?",
-            "text": "<p>We offer <strong>free shipping within Canada</strong>, and orders typically arrive within <strong>3–7 business days</strong>. Remote areas may take slightly longer.</p>"
-          }
-        },
-        "question_bycWRJ": {
-          "type": "question",
-          "settings": {
-            "title": "Can I return the item(s)?",
-            "text": "<p>You can return your item within 30 days of delivery. Simply <strong>email our support team</strong>, and we’ll handle the return or exchange for you quickly and professionally.<br/><strong>Email: Info@nora-lilly.com</strong></p>"
-          }
-        },
-        "question_YGyqMR": {
-          "type": "question",
-          "settings": {
-            "title": "How can I track my order?",
-            "text": "<p>You can track your order by entering the tracking number you received from us on the \"TRACK YOUR ORDER\" page. Once you’ve entered the number and clicked \"TRACK,\" you will see the status of your order.</p>"
-          }
-        },
-        "question_BJdjgm": {
-          "type": "question",
-          "settings": {
-            "title": "Will I receive a confirmation email after placing an order?",
-            "text": "<p>Yes, once you've placed your order, a confirmation will be sent to your email inbox. If you don’t see it, feel free to reach out to our customer service team, we’re happy to help you right away.<br/><strong>Email: Info@nora-lilly.com</strong></p>"
-          }
-        },
-        "question_bmXt8a": {
-          "type": "question",
-          "settings": {
-            "title": "How do I know which size is right for me?",
-            "text": "<p>Every item can fit a little differently, so <strong>we include a clear size chart on each product page</strong> to help you choose the right fit. If you're unsure or would like a bit of guidance, you’re always welcome to email our support team — we’re happy to help you find the size that feels most comfortable for you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_dNXGaR",
-        "question_bycWRJ",
-        "question_YGyqMR",
-        "question_BJdjgm",
-        "question_bmXt8a"
-      ],
-      "name": "t:sections.faq.presets.faq.name",
-      "settings": {
-        "title": "Frequently asked questions"
-      }
-    },
     "text_with_icons_EXHfkx": {
       "type": "text-with-icons",
       "blocks": {
@@ -489,6 +438,57 @@
         "button_link": "",
         "divider": false
       }
+    },
+    "faq_GaqAnd": {
+      "type": "faq",
+      "blocks": {
+        "question_dNXGaR": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "text": "<p>We offer <strong>free shipping within Canada</strong>, and orders typically arrive within <strong>3–7 business days</strong>. Remote areas may take slightly longer.</p>"
+          }
+        },
+        "question_bycWRJ": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return the item(s)?",
+            "text": "<p>You can return your item within 30 days of delivery. Simply <strong>email our support team</strong>, and we’ll handle the return or exchange for you quickly and professionally.<br/><strong>Email: Info@nora-lilly.com</strong></p>"
+          }
+        },
+        "question_YGyqMR": {
+          "type": "question",
+          "settings": {
+            "title": "How can I track my order?",
+            "text": "<p>You can track your order by entering the tracking number you received from us on the \"TRACK YOUR ORDER\" page. Once you’ve entered the number and clicked \"TRACK,\" you will see the status of your order.</p>"
+          }
+        },
+        "question_BJdjgm": {
+          "type": "question",
+          "settings": {
+            "title": "Will I receive a confirmation email after placing an order?",
+            "text": "<p>Yes, once you've placed your order, a confirmation will be sent to your email inbox. If you don’t see it, feel free to reach out to our customer service team, we’re happy to help you right away.<br/><strong>Email: Info@nora-lilly.com</strong></p>"
+          }
+        },
+        "question_bmXt8a": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know which size is right for me?",
+            "text": "<p>Every item can fit a little differently, so <strong>we include a clear size chart on each product page</strong> to help you choose the right fit. If you're unsure or would like a bit of guidance, you’re always welcome to email our support team — we’re happy to help you find the size that feels most comfortable for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_dNXGaR",
+        "question_bycWRJ",
+        "question_YGyqMR",
+        "question_BJdjgm",
+        "question_bmXt8a"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": "Frequently asked questions"
+      }
     }
   },
   "order": [
@@ -504,7 +504,7 @@
     "collection-return",
     "advanced_content_8xgThm",
     "text_with_icons_mJ3Wt9",
-    "faq_GaqAnd",
-    "text_with_icons_EXHfkx"
+    "text_with_icons_EXHfkx",
+    "faq_GaqAnd"
   ]
 }
