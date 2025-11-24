@@ -209,7 +209,7 @@
         "testimonial_qTYWbY": {
           "type": "testimonial",
           "settings": {
-            "icon": "4-stars",
+            "icon": "5-stars",
             "testimonial": "<p>“I ordered the quilted fall-to-winter jacket. It’s lightweight yet surprisingly warm. My only minor complaint is that the pockets could be a bit deeper for gloves. Other than that, it’s been great for daily walks and errands during our chilly afternoons.”</p>",
             "image": "shopify://shop_images/8c6a0fd1890d78306b94c6817121d980.jpg",
             "author": "Helen Clarke",
@@ -240,7 +240,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
-        "title": "Bundle & get up up to 30% extra off!",
+        "title": "Bundle & get up up to 20% extra off!",
         "home_featured_products": "best-sellers",
         "per_row": 5,
         "rows": 1,
