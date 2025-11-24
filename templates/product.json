@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "custom_PEAqtP": {
-          "type": "custom",
-          "settings": {
-            "code": ""
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -64,7 +58,7 @@
         "custom_zr4pe3": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"updatetext\" style=\"background-color: #fbeae5; color: rgb(155, 41, 0); text-align: left; margin-bottom: 10px; border-radius: 5px;\" >\n      <p><strong>BLACK FRIDAY SALE:  </strong> <br><br>\n<ul class=\"bundle-tiers\">\n    <li><strong>Buy 2</strong> → Save 10% Extra</li>\n    <li><strong>Buy 3</strong> → Save 15% Extra</li>\n    <li><strong>Buy 4</strong> → <span>Save 20% Extra</span></li>\n  </ul>Due to high demand during our pre-Black Friday sale, only a limited number of items are left. If you can still click <strong>'Add to Cart,'</strong> it’s still available. </p>\n      </div>\n\n<style>\n.updatetext {\n    padding: 20px;\n    margin-top: -8px;\n    border-radius: 10px;\n}\n.updatetext p {\n    margin: 0;\n}\n</style>"
+            "code": "<div style=\"background:#ffe5e5; padding:20px 15px; text-align:center; color:#000;\">\n\n  <!-- Eyebrow Title -->\n  <div style=\"font-size:14px; letter-spacing:1px; margin-bottom:6px; text-transform:uppercase; color:#c62828;\">\n    Pre-Black Friday Sale\n  </div>\n\n  <!-- Main Title -->\n  <div style=\"font-size:32px; font-weight:800; margin:6px 0 12px; color:#c62828;\">\n    Up to 80% OFF\n  </div>\n\n  <!-- Bundle Discounts -->\n  <div style=\"font-size:15px; margin-bottom:10px; line-height:1.5;\">\n    <strong>Bundle discounts</strong><br>\n    Buy 1, Get 10% Off<br>\n    Buy 2, Get 15% Off<br>\n    Buy 3, Get 20% Off\n  </div>\n\n  <!-- URGENCY TIMER (between text and button) -->\n  <div style=\"\n    margin:16px auto 14px;\n    padding:10px 18px;\n    border-radius:999px;\n    border:1px solid #c62828;\n    display:flex;\n    justify-content:center;\n    align-items:center;\n    gap:16px;\n    background:#ffe5e5;\n    color:#c62828;\n    font-size:14px;\n    font-weight:600;\n  \">\n    <span style=\"text-transform:uppercase; letter-spacing:0.08em;\">Ends in</span>\n\n    <div style=\"display:flex; gap:12px;\">\n\n      <div style=\"text-align:center; min-width:50px;\">\n        <span id=\"urg-hours\" style=\"font-size:20px; font-weight:800; display:block;\">06</span>\n        <span style=\"font-size:10px; letter-spacing:1px;\">HRS</span>\n      </div>\n\n      <div style=\"text-align:center; min-width:50px;\">\n        <span id=\"urg-minutes\" style=\"font-size:20px; font-weight:800; display:block;\">00</span>\n        <span style=\"font-size:10px; letter-spacing:1px;\">MINS</span>\n      </div>\n\n      <div style=\"text-align:center; min-width:50px;\">\n        <span id=\"urg-seconds\" style=\"font-size:20px; font-weight:800; display:block;\">00</span>\n        <span style=\"font-size:10px; letter-spacing:1px;\">SECS</span>\n      </div>\n\n    </div>\n  </div>\n\n  <!-- CTA BUTTON -->\n  <a href=\"#shop\"\n     style=\"\n       display:inline-block;\n       margin-top:4px;\n       padding:10px 26px;\n       border-radius:999px;\n       background:#c62828;\n       color:#ffffff;\n       text-decoration:none;\n       font-size:14px;\n       font-weight:700;\n       text-transform:uppercase;\n       letter-spacing:0.08em;\n     \">\n    Last chance\n  </a>\n</div>\n\n<script>\n  (function () {\n    var hoursEl = document.getElementById('urg-hours');\n    var minsEl = document.getElementById('urg-minutes');\n    var secsEl = document.getElementById('urg-seconds');\n    if (!hoursEl || !minsEl || !secsEl) return;\n\n    var STORAGE_KEY = 'nl_prebf_6h_expiry';\n    var now = Date.now();\n    var expiry;\n\n    try {\n      var stored = localStorage.getItem(STORAGE_KEY);\n      if (stored) {\n        var parsed = parseInt(stored, 10);\n        if (!isNaN(parsed) && parsed > now) {\n          expiry = parsed;\n        }\n      }\n    } catch (e) {}\n\n    if (!expiry) {\n      expiry = now + 6 * 60 * 60 * 1000; // 6 hours\n      try {\n        localStorage.setItem(STORAGE_KEY, String(expiry));\n      } catch (e) {}\n    }\n\n    function pad(n) {\n      return n < 10 ? '0' + n : String(n);\n    }\n\n    function updateTimer() {\n      var diff = expiry - Date.now();\n      if (diff <= 0) {\n        hoursEl.textContent = '00';\n        minsEl.textContent = '00';\n        secsEl.textContent = '00';\n        clearInterval(timer);\n        return;\n      }\n\n      var totalSeconds = Math.floor(diff / 1000);\n      var h = Math.floor(totalSeconds / 3600);\n      var m = Math.floor((totalSeconds % 3600) / 60);\n      var s = totalSeconds % 60;\n\n      hoursEl.textContent = pad(h);\n      minsEl.textContent = pad(m);\n      secsEl.textContent = pad(s);\n    }\n\n    updateTimer();\n    var timer = setInterval(updateTimer, 1000);\n  })();\n</script>"
           }
         },
         "description": {
@@ -108,7 +102,6 @@
         }
       },
       "block_order": [
-        "custom_PEAqtP",
         "price",
         "separator",
         "custom_GzeYTh",
