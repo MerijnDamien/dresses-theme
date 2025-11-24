@@ -171,6 +171,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>“Seriously my new favorite sweater. I want it in every color.”</p>",
+            "image": "shopify://shop_images/4ceb85b3066d28a976fc51dc75cfc763.jpg",
             "author": "Linda Marshall",
             "author_info": "Victoria, BC"
           }
@@ -180,6 +181,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>“With the colder weather settling in, I ordered the insulated winter jacket. It’s incredibly warm and handles our windy November days perfectly. The fit is flattering and still leaves room for layering. I feel confident it will get me through the deep winter months.”</p>",
+            "image": "shopify://shop_images/0c7eaa999528a47284998d36ba6c33ec.jpg",
             "author": "Karen Dupuis",
             "author_info": "Montréal, QC"
           }
@@ -189,6 +191,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>“I needed sturdy shoes for the early snow we’re already seeing, and the waterproof ankle boots are fantastic. They have great grip, feel supportive, and kept my feet warm during our first icy morning. Quality is excellent — I couldn’t be happier.”</p>",
+            "image": "shopify://shop_images/12aaef8cce38a5f47417814f865176e2.jpg",
             "author": "Susan Hartley",
             "author_info": "Calgary, AB"
           }
@@ -198,6 +201,7 @@
           "settings": {
             "icon": "5-stars",
             "testimonial": "<p>“Really cozy turtleneck for this windy weather. Looks nice with everything. I could easily see myself buying it in every colour.”</p>",
+            "image": "shopify://shop_images/b212ac20ede073b75a5443163f82ac46.jpg",
             "author": "Margaret O’Neill",
             "author_info": "St. John’s, NL"
           }
@@ -207,6 +211,7 @@
           "settings": {
             "icon": "4-stars",
             "testimonial": "<p>“I ordered the quilted fall-to-winter jacket. It’s lightweight yet surprisingly warm. My only minor complaint is that the pockets could be a bit deeper for gloves. Other than that, it’s been great for daily walks and errands during our chilly afternoons.”</p>",
+            "image": "shopify://shop_images/8c6a0fd1890d78306b94c6817121d980.jpg",
             "author": "Helen Clarke",
             "author_info": "Ottawa, ON"
           }
@@ -236,7 +241,7 @@
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
         "title": "Bundle & get up up to 30% extra off!",
-        "home_featured_products": "winter-best-sellers",
+        "home_featured_products": "best-sellers",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,

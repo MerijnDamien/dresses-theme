@@ -117,7 +117,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Very popular right now...",
-        "home_featured_products": "winter-best-sellers",
+        "home_featured_products": "best-sellers",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
@@ -131,7 +131,7 @@
         "collection_xhPUcY": {
           "type": "collection",
           "settings": {
-            "collection": "winter-best-sellers",
+            "collection": "sweaters-hoodies",
             "title": "Sweaters & Cardigans",
             "focal_point": "top center"
           }
@@ -224,7 +224,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "black friday sale",
-        "home_featured_products": "winter-best-sellers",
+        "home_featured_products": "jackets",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
