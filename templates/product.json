@@ -242,27 +242,6 @@
         "divider": false
       }
     },
-    "text_and_image_9YRb8F": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify://shop_images/Whisk_6f36cce45f2880e9eec455c9776fdb49dr.png",
-        "image_mask": "square",
-        "image2_mask": "portrait",
-        "subtitle": "",
-        "title": "30 day money back guarantee",
-        "text": "<p>We love our products and we're sure you'll love them as much as we do! That's why we offer a risk-free 30-day money-back guarantee. If you are not satisfied with our product, we will give you your money back.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
     "text_and_image_WBgfAn": {
       "type": "text-and-image",
       "name": "t:sections.text-and-image.presets.image_with_text.name",
@@ -279,6 +258,27 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_9YRb8F": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Whisk_6f36cce45f2880e9eec455c9776fdb49dr.png",
+        "image_mask": "square",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "30 day money back guarantee",
+        "text": "<p>We love our products and we're sure you'll love them as much as we do! That's why we offer a risk-free 30-day money-back guarantee. If you are not satisfied with our product, we will give you your money back.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
         "divider": false,
         "top_padding": true,
         "bottom_padding": true,
@@ -495,8 +495,8 @@
     "sub",
     "testimonials_U6jWLR",
     "featured_collection_G6ithg",
-    "text_and_image_9YRb8F",
     "text_and_image_WBgfAn",
+    "text_and_image_9YRb8F",
     "product-recommendations",
     "recently-viewed",
     "collection-return",
