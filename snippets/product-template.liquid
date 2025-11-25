@@ -553,7 +553,11 @@ data-modal="{{ isModal }}">
         <a href="#yc-webdesign-variant-selector" class="sticky-add-to-cart-button">
           Add to cart
         </a>
-        <span style="font-size: 13px;">Free shipping!</span>
+        <div class="payment-methods" style="display: flex; flex-wrap:; gap: 0.5rem; justify-content: center;"> 
+            {%- for type in shop.enabled_payment_types -%}
+              {{- type | payment_type_svg_tag -}}
+            {%- endfor -%}
+          </div>
       </div>
       
       <style>
