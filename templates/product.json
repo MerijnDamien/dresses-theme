@@ -102,7 +102,7 @@
           "type": "tab",
           "settings": {
             "title": "MONEY BACK",
-            "content": "<p>We offer a <strong>100% money-back guarantee </strong>within 30 days of receiving your order.</p>",
+            "content": "<p>We offer a <strong>100% money-back guarantee </strong>within 30 days of receiving your order.</p><p>Not satisfied? Email us within 30 days for a refund.</p>",
             "page": ""
           }
         },
