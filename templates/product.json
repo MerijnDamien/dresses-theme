@@ -179,7 +179,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“Seriously my new favorite sweater. I want it in every color.”</p>",
+            "testimonial": "<p>“Seriously my new favorite sweater. I want it in every color.</p><p>Also shipped in less than a week to Victoria !”</p>",
             "image": "shopify://shop_images/4ceb85b3066d28a976fc51dc75cfc763.jpg",
             "author": "Linda Marshall",
             "author_info": "Victoria, BC"
@@ -189,7 +189,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“With the colder weather settling in, I ordered the insulated winter jacket. It’s incredibly warm and handles our windy December days perfectly. The fit is flattering and still leaves room for layering. I feel confident it will get me through the deep winter months.”</p>",
+            "testimonial": "<p>“Fit was perfect. I was nervous to order online, but the sizing guide was accurate. Looks exactly like the photos.”</p>",
             "image": "shopify://shop_images/b44838351699de63aafa5c5802cb71ff.jpg",
             "author": "Karen Dupuis",
             "author_info": "Montréal, QC"
@@ -209,7 +209,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“Really cozy turtleneck for this windy weather. Looks nice with everything. I could easily see myself buying it in every colour.”</p>",
+            "testimonial": "<p>\"Surprisingly good quality for the price. The fabric feels premium and the stitching is clean. I’ve already gotten compliments.\"</p>",
             "image": "shopify://shop_images/9de35590d476ce39da0ba1881ccb3667.jpg",
             "author": "Margaret O’Neill",
             "author_info": "St. John’s, NL"
