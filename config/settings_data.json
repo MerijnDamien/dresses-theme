@@ -577,7 +577,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#CartDrawer {z-index: 99999;}"
+      "#CartDrawer {z-index: 99999;}",
+      ".product-block.product-block--price {flex-wrap: wrap;}"
     ]
   }
 }
