@@ -298,6 +298,13 @@ data-modal="{{ isModal }}">
                     {%- else -%}
                       <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
                     {%- endif -%}
+                    {%- if current_variant.compare_at_price > current_variant.price -%}
+  {%- assign save_amount = current_variant.compare_at_price | minus: current_variant.price -%}
+  {%- assign save_percent = save_amount | times: 100 | divided_by: current_variant.compare_at_price | round -%}
+  <span class="badge badge--save" style="background:#00b67a;color:#fff;font-size:12px;font-weight:700;padding: 3px;align-self: center;">
+    SAVE {{ save_percent }}% TODAY
+  </span>
+{%- endif -%}
 
                     <span data-product-price
                       class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
@@ -308,13 +315,6 @@ data-modal="{{ isModal }}">
                       {%- endunless -%}
                     </span>
 
-                    {%- if current_variant.compare_at_price > current_variant.price -%}
-  {%- assign save_amount = current_variant.compare_at_price | minus: current_variant.price -%}
-  {%- assign save_percent = save_amount | times: 100 | divided_by: current_variant.compare_at_price | round -%}
-  <span class="badge badge--save" style="background:#fff;color:#00b67a;font-size:12px;font-weight:700;padding: 3px;align-self: center;">
-    SAVE {{ save_percent }}% TODAY
-  </span>
-{%- endif -%}
 
 
                     {%- if settings.product_save_amount -%}
