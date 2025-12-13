@@ -277,13 +277,7 @@ data-modal="{{ isModal }}">
                 {%- when 'price' -%}
 
                   <div class="product-block product-block--price" {{ block.shopify_attributes }}>
-                                                          {%- if current_variant.compare_at_price > current_variant.price -%}
-  {%- assign save_amount = current_variant.compare_at_price | minus: current_variant.price -%}
-  {%- assign save_percent = save_amount | times: 100 | divided_by: current_variant.compare_at_price | round -%}
-  <span class="badge badge--save" style="background:#00b67a;color:#fff;font-size:12px;font-weight:700;padding: 3px;align-self: center;">
-    SAVE {{ save_percent }}% TODAY
-  </span>
-{%- endif -%}
+
                     {%- assign hide_sale_price = true -%}
                     {%- if product.compare_at_price_max > product.price -%}
                       {%- if current_variant.compare_at_price > current_variant.price -%}
@@ -317,7 +311,13 @@ data-modal="{{ isModal }}">
                       {%- endunless -%}
                     </span>
 
-
+                                                          {%- if current_variant.compare_at_price > current_variant.price -%}
+  {%- assign save_amount = current_variant.compare_at_price | minus: current_variant.price -%}
+  {%- assign save_percent = save_amount | times: 100 | divided_by: current_variant.compare_at_price | round -%}
+  <span class="badge badge--save" style="background:#00b67a;color:#fff;font-size:12px;font-weight:700;padding: 3px;align-self: center;">
+    SAVE {{ save_percent }}% TODAY
+  </span>
+{%- endif -%}
 
                     {%- if settings.product_save_amount -%}
                       {%- if settings.product_save_type == 'dollar' -%}
