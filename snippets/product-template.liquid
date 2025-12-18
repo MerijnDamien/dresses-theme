@@ -339,6 +339,87 @@ data-modal="{{ isModal }}">
 })();
 </script>
    
+
+{%- when 'viewing_pill' -%}
+  <style>
+    #viewing-pill-{{ block.id }} {
+      display: flex;
+      justify-content: {{ block.settings.alignment }};
+      margin-top: {{ block.settings.margin_top }}px;
+      margin-bottom: {{ block.settings.margin_bottom }}px;
+    }
+
+    #viewing-pill-{{ block.id }} .viewing-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+      border-radius: 9999px;
+      background: {{ block.settings.background_color }};
+      border: 1px solid {{ block.settings.border_color }};
+      color: {{ block.settings.text_color }};
+      font-size: {{ block.settings.font_size }}px;
+      line-height: 1.2;
+      white-space: nowrap;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+    }
+
+    #viewing-pill-{{ block.id }} .viewing-pill__dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: {{ block.settings.dot_color }};
+      box-shadow: 0 0 0 3px {{ block.settings.dot_color | color_modify: 'alpha', 0.15 }};
+      display: inline-block;
+    }
+
+    #viewing-pill-{{ block.id }} .viewing-pill__count {
+      font-weight: 700;
+      color: {{ block.settings.text_color }};
+      margin-right: 4px;
+      transition: all 0.3s ease;
+    }
+  </style>
+
+  <div id="viewing-pill-{{ block.id }}" class="viewing-pill-wrapper" {{ block.shopify_attributes }}>
+    <div class="viewing-pill" role="status" aria-live="polite">
+      <span class="viewing-pill__dot" aria-hidden="true"></span>
+      <span>
+        <strong class="viewing-pill__count" data-viewing-count="">{{ block.settings.min_count }}</strong>
+        {{ block.settings.viewing_text }}
+      </span>
+    </div>
+  </div>
+
+  <script>
+  (function() {
+    const wrapper = document.querySelector("#viewing-pill-{{ block.id }}");
+    if (!wrapper) return;
+
+    const countEl = wrapper.querySelector("[data-viewing-count]");
+    if (!countEl) return;
+
+    const minCount = {{ block.settings.min_count }};
+    const maxCount = {{ block.settings.max_count }};
+    const interval = {{ block.settings.update_interval }} * 1000;
+
+    function updateCount() {
+      let currentCount = parseInt(countEl.textContent);
+      let newCount = Math.floor(Math.random() * (maxCount - minCount + 1)) + minCount;
+      
+      // Ensure new count is different from current
+      while (newCount === currentCount) {
+        newCount = Math.floor(Math.random() * (maxCount - minCount + 1)) + minCount;
+      }
+      
+      countEl.textContent = newCount;
+    }
+
+    // Start the interval
+    setInterval(updateCount, interval);
+  })();
+  </script>
+
                 {%- when 'separator' -%}
                   <div class="product-block" {{ block.shopify_attributes }}><hr></div>
                 {%- when 'text' -%}
