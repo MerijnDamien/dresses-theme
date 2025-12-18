@@ -57,7 +57,7 @@
             "padding_horizontal": 18,
             "border_radius": 6,
             "show_processing_date": true,
-            "processing_text": "Ships By,",
+            "processing_text": "Ships By",
             "days_offset": 2,
             "indicator_color": "#1b7333",
             "show_shipping_message": true,
