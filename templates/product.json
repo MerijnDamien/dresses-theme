@@ -43,13 +43,12 @@
         },
         "viewing_pill_ALCVgB": {
           "type": "viewing_pill",
-          "disabled": true,
           "settings": {
             "viewing_text": "people are viewing this item",
             "min_count": 5,
             "max_count": 22,
             "update_interval": 5,
-            "alignment": "center",
+            "alignment": "flex-start",
             "margin_top": 12,
             "margin_bottom": 0,
             "background_color": "#e9fbea",
@@ -177,7 +176,7 @@
         ".product__price-savings {display: none !important;}",
         ".product-block {text-align: left;}",
         ".product-single__meta {text-align: left;}",
-        ".product-block {padding-left: 20px !important; padding-right: 20px !important;}",
+        ".product-block {padding-left: 10px !important; padding-right: 10px !important;}",
         ".product-block.product-block--price {display: flex; align-items: end;}",
         "span.star-rating__text {font-size: 14px;}"
       ],
