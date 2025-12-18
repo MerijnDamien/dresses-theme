@@ -247,6 +247,98 @@ data-modal="{{ isModal }}">
               {%- case block.type -%}
                 {%- when '@app' -%}
                   {% render block %}
+
+                 {%- when 'shipping_banner' -%}
+  <style>
+    #shipping-banner-{{ block.id }} {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: {{ block.settings.background_color }};
+      padding: {{ block.settings.padding_vertical }}px {{ block.settings.padding_horizontal }}px;
+      border-radius: {{ block.settings.border_radius }}px;
+      font-size: {{ block.settings.font_size }}px;
+      margin-bottom: 1rem;
+    }
+
+    #shipping-banner-{{ block.id }} .custom-shipping-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    #shipping-banner-{{ block.id }} .green-circle {
+      width: 12px;
+      height: 12px;
+    }
+
+    #shipping-banner-{{ block.id }} .custom-icon {
+      width: 20px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    #shipping-banner-{{ block.id }} .text-block-shipping {
+      font-weight: 600;
+      color: {{ block.settings.text_color }};
+    }
+  </style>
+
+  <div id="shipping-banner-{{ block.id }}" class="custom-shipping-container" data-shipping-banner="" data-days-offset="{{ block.settings.days_offset }}"{{ block.shopify_attributes }}>
+
+    {%- if block.settings.show_processing_date -%}
+      <div class="custom-shipping-item">
+        <svg class="green-circle" xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
+          <circle cx="6" cy="6.5" r="6" fill="{{ block.settings.indicator_color }}"></circle>
+        </svg>
+
+        <div class="text-block-shipping">
+          {{ block.settings.processing_text }}
+          <span data-shipping-date="" class="shipping-date">Loading...</span>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if block.settings.show_shipping_message -%}
+      <div class="custom-shipping-item">
+        {%- if block.settings.flag_image != blank -%}
+          {{ block.settings.flag_image | image_url: width: 40 | image_tag: loading: 'lazy', alt: block.settings.flag_alt_text, class: 'custom-icon' }}
+        {%- else -%}
+          <img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" loading="lazy" alt="{{ block.settings.flag_alt_text }}" class="custom-icon">
+        {%- endif -%}
+
+        <div class="text-block-shipping">
+          {{ block.settings.shipping_text }}
+        </div>
+      </div>
+    {%- endif -%}
+
+  </div>
+
+<script>
+(function() {
+  const container = document.querySelector("#shipping-banner-{{ block.id }}");
+  if (!container) return;
+
+  const offset = parseInt(container.getAttribute("data-days-offset")) || 0;
+  const dateElem = container.querySelector("[data-shipping-date]");
+  
+  if (!dateElem) return;
+
+  // Get current date in user's local timezone
+  let date = new Date();
+  
+  // Add offset days (1 = tomorrow)
+  date.setDate(date.getDate() + offset);
+
+  // Format date using user's locale
+  const options = { month: "long", day: "numeric" };
+  const formatted = date.toLocaleDateString(undefined, options);
+
+  dateElem.textContent = formatted;
+})();
+</script>
+   
                 {%- when 'separator' -%}
                   <div class="product-block" {{ block.shopify_attributes }}><hr></div>
                 {%- when 'text' -%}

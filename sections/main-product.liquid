@@ -163,6 +163,132 @@
   "blocks": [{
   "type": "@app"
 },
+
+      {
+  "type": "shipping_banner",
+  "name": "Shipping - YC Web Design",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Banner Settings"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f6f6f6"
+    },
+    {
+      "type": "range",
+      "id": "padding_vertical",
+      "label": "Vertical Padding",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_horizontal",
+      "label": "Horizontal Padding",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border Radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 6
+    },
+    {
+      "type": "header",
+      "content": "Processing Date Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_processing_date",
+      "label": "Show Processing Date",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "processing_text",
+      "label": "Processing Text",
+      "default": "Processed on"
+    },
+    {
+      "type": "range",
+      "id": "days_offset",
+      "label": "Days Offset",
+      "info": "Number of days to add to current date (1 = tomorrow)",
+      "min": 0,
+      "max": 7,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "indicator_color",
+      "label": "Indicator Circle Color",
+      "default": "#1B7333"
+    },
+    {
+      "type": "header",
+      "content": "Shipping Message Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_message",
+      "label": "Show Shipping Message",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "shipping_text",
+      "label": "Shipping Message",
+      "default": "FREE UK Shipping"
+    },
+    {
+      "type": "image_picker",
+      "id": "flag_image",
+      "label": "Flag/Icon Image"
+    },
+    {
+      "type": "text",
+      "id": "flag_alt_text",
+      "label": "Flag Alt Text",
+      "default": "UK flag"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Font Size",
+      "min": 8,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    }
+  ]
+},
 {
   "type": "price",
   "name": "t:product_block.price.name",
