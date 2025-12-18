@@ -37,9 +37,28 @@
         },
         "custom_AiaN4B": {
           "type": "custom",
+          "settings": {
+            "code": "<div class=\"stock-info-cstm\">\n                      <div class=\"blob red custom-icons blob-trust\"></div>\n                      <p style=\"margin: 0;\">Only a few left in stock!</p>\n                    </div>\n\n<style>\n.stock-info-cstm {\n  display: flex;\n  gap: 12px;\n  align-items: center;\n  margin-top: 5px;\n  margin-bottom: 10px;\n}\n.blob.red {\n  background: #eb1809;\n  box-shadow: 0 0 #eb1809;\n  animation: pulse-red 2s infinite;\n}\n.blob {\n  display: block !important;\n  background: #000;\n  border-radius: 50%;\n  box-shadow: 0 0 #000;\n  height: 10px;\n  width: 10px;\n  transform: scale(1);\n  animation: pulse-black 2s infinite;\n  margin: 10px 10px 10px 5px;\n}\n\n@keyframes pulse-red {\n  0% {\n    transform: scale(1);\n    box-shadow: 0 0 0 0 rgba(235, 24, 9, 0.7);\n  }\n  70% {\n    transform: scale(1.5);\n    box-shadow: 0 0 0 10px rgba(235, 24, 9, 0);\n  }\n  100% {\n    transform: scale(1);\n    box-shadow: 0 0 0 0 rgba(235, 24, 9, 0);\n  }\n}\n</style>"
+          }
+        },
+        "viewing_pill_ALCVgB": {
+          "type": "viewing_pill",
           "disabled": true,
           "settings": {
-            "code": "<div class=\"stock-info-cstm\">\n                      <div class=\"blob red custom-icons blob-trust\"></div>\n                      <p style=\"margin: 0;\">Only 7 left in stock!</p>\n                    </div>\n\n<style>\n.stock-info-cstm {\n  display: flex;\n  gap: 12px;\n  align-items: center;\n  margin-top: 5px;\n  margin-bottom: 10px;\n}\n.blob.red {\n  background: #eb1809;\n  box-shadow: 0 0 #eb1809;\n  animation: pulse-red 2s infinite;\n}\n.blob {\n  display: block !important;\n  background: #000;\n  border-radius: 50%;\n  box-shadow: 0 0 #000;\n  height: 10px;\n  width: 10px;\n  transform: scale(1);\n  animation: pulse-black 2s infinite;\n  margin: 10px 10px 10px 5px;\n}\n\n@keyframes pulse-red {\n  0% {\n    transform: scale(1);\n    box-shadow: 0 0 0 0 rgba(235, 24, 9, 0.7);\n  }\n  70% {\n    transform: scale(1.5);\n    box-shadow: 0 0 0 10px rgba(235, 24, 9, 0);\n  }\n  100% {\n    transform: scale(1);\n    box-shadow: 0 0 0 0 rgba(235, 24, 9, 0);\n  }\n}\n</style>"
+            "viewing_text": "people are viewing this item",
+            "min_count": 5,
+            "max_count": 22,
+            "update_interval": 5,
+            "alignment": "center",
+            "margin_top": 12,
+            "margin_bottom": 0,
+            "background_color": "#e9fbea",
+            "border_color": "#a6e6ab",
+            "text_color": "#1e8b24",
+            "dot_color": "#1e8b24",
+            "font_size": 14,
+            "padding_vertical": 6,
+            "padding_horizontal": 12
           }
         },
         "buy_buttons": {
@@ -141,6 +160,7 @@
         "custom_GzeYTh",
         "variant_picker",
         "custom_AiaN4B",
+        "viewing_pill_ALCVgB",
         "buy_buttons",
         "shipping_banner_8Lhdzg",
         "custom_cfi3xx",
