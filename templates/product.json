@@ -43,6 +43,7 @@
         },
         "viewing_pill_ALCVgB": {
           "type": "viewing_pill",
+          "disabled": true,
           "settings": {
             "viewing_text": "people are viewing this item",
             "min_count": 5,
@@ -50,7 +51,7 @@
             "update_interval": 5,
             "alignment": "flex-start",
             "margin_top": 12,
-            "margin_bottom": 0,
+            "margin_bottom": 12,
             "background_color": "#e9fbea",
             "border_color": "#a6e6ab",
             "text_color": "#1e8b24",
