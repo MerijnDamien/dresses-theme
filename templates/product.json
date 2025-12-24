@@ -452,12 +452,20 @@
     "text_with_icons_EXHfkx": {
       "type": "text-with-icons",
       "blocks": {
+        "text_block_c6JYtK": {
+          "type": "text_block",
+          "settings": {
+            "icon": "store",
+            "title": "Canadian owned",
+            "text": "<p>Shop ! With <br/><br/></p>"
+          }
+        },
         "text_block_kCfpmC": {
           "type": "text_block",
           "settings": {
             "icon": "truck",
             "title": "Free shipping",
-            "text": "<p>Enjoy free shipping anywhere in Canada. We deliver straight to your door—quickly, safely, and at no extra cost.</p>"
+            "text": "<p>Delivered anywhere in Canada, straight to your door with Canada Post.</p>"
           }
         },
         "text_block_EyjfGC": {
@@ -471,25 +479,17 @@
         "text_block_FybJcM": {
           "type": "text_block",
           "settings": {
-            "icon": "sales-tag",
-            "title": "Quality You can trust",
-            "text": "<p>Crafted with care to look and feel beautiful. Each piece is designed for comfort, confidence, and long-lasting wear.<br/><br/></p>"
-          }
-        },
-        "text_block_c6JYtK": {
-          "type": "text_block",
-          "settings": {
-            "icon": "chat",
-            "title": "24/7 customer care",
-            "text": "<p>ready to help—day or night.<strong> </strong>Whether you have a question or need assistance, we’re always here for you.<br/><br/></p>"
+            "icon": "ribbon",
+            "title": "over 14.000+",
+            "text": "<p>Happy Customers !<br/><br/></p>"
           }
         }
       },
       "block_order": [
+        "text_block_c6JYtK",
         "text_block_kCfpmC",
         "text_block_EyjfGC",
-        "text_block_FybJcM",
-        "text_block_c6JYtK"
+        "text_block_FybJcM"
       ],
       "settings": {
         "title": "",
