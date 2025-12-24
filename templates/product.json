@@ -220,6 +220,40 @@
         "max_width": true
       }
     },
+    "featured_collection_G6ithg": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Bundle & get up to 20% extra off!",
+        "home_featured_products": "best-sellers",
+        "per_row": 5,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "text_and_image_9YRb8F": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Whisk_6f36cce45f2880e9eec455c9776fdb49dr.png",
+        "image_mask": "square",
+        "image2_mask": "portrait",
+        "subtitle": "",
+        "title": "30 day money back guarantee",
+        "text": "<p>We love our products and we're sure you'll love them as much as we do! That's why we offer a risk-free 30-day money-back guarantee. If you are not satisfied with our product, we will give you your money back.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "testimonials_U6jWLR": {
       "type": "testimonials",
       "blocks": {
@@ -286,24 +320,11 @@
         ".testimonials-section {padding: 32.5px 0;}"
       ],
       "settings": {
-        "title": "what our customers are saying!",
+        "title": "Loved by Our Community !",
         "align_text": "left",
         "round_images": true,
         "color_background": "#f9f9f9",
         "color_text": "#1c1d1d"
-      }
-    },
-    "featured_collection_G6ithg": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.featured_collection.name",
-      "settings": {
-        "title": "Bundle & get up to 20% extra off!",
-        "home_featured_products": "best-sellers",
-        "per_row": 5,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
       }
     },
     "text_and_image_WBgfAn": {
@@ -322,27 +343,6 @@
         "align_text": "left",
         "image_width": "50",
         "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "text_and_image_9YRb8F": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify://shop_images/Whisk_6f36cce45f2880e9eec455c9776fdb49dr.png",
-        "image_mask": "square",
-        "image2_mask": "portrait",
-        "subtitle": "",
-        "title": "30 day money back guarantee",
-        "text": "<p>We love our products and we're sure you'll love them as much as we do! That's why we offer a risk-free 30-day money-back guarantee. If you are not satisfied with our product, we will give you your money back.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
         "divider": false,
         "top_padding": true,
         "bottom_padding": true,
@@ -557,10 +557,10 @@
     "main",
     "scrolling_text_yqNX4Q",
     "sub",
-    "testimonials_U6jWLR",
     "featured_collection_G6ithg",
-    "text_and_image_WBgfAn",
     "text_and_image_9YRb8F",
+    "testimonials_U6jWLR",
+    "text_and_image_WBgfAn",
     "product-recommendations",
     "recently-viewed",
     "collection-return",
