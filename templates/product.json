@@ -280,8 +280,8 @@
         "testimonial_8PteBh": {
           "type": "testimonial",
           "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>“Fast shipping and great communication. The package arrived in 5 days and the piece looks even better in person.”</p>",
+            "icon": "4-stars",
+            "testimonial": "<p>“Fast shipping and great communication. The package arrived in 7 days and the piece fits great.”</p>",
             "image": "shopify://shop_images/e4ea241a22edcf88fe957b67b245d625.jpg",
             "author": "Susan Hartley",
             "author_info": "Calgary, AB"
@@ -290,8 +290,8 @@
         "testimonial_gzjPQX": {
           "type": "testimonial",
           "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>\"Surprisingly good quality for the price. The fabric feels premium and the stitching is clean. I’ve already gotten compliments.\"</p>",
+            "icon": "4-stars",
+            "testimonial": "<p>\"Surprisingly good quality for the price. The fabric feels premium and the stitching is clean.\"</p>",
             "image": "shopify://shop_images/9de35590d476ce39da0ba1881ccb3667.jpg",
             "author": "Margaret O’Neill",
             "author_info": "St. John’s, NL"
@@ -301,7 +301,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>“I ordered the quilted fall-to-winter jacket. It’s lightweight yet surprisingly warm. My only minor complaint is that the pockets could be a bit deeper for gloves. Other than that, it’s been great for daily walks and errands during our chilly afternoons.”</p>",
+            "testimonial": "<p>“I ordered this sweater and it’s very comfortable and warm. The fit is good and it feels nice to wear all day.”</p>",
             "image": "shopify://shop_images/8c6a0fd1890d78306b94c6817121d980.jpg",
             "author": "Helen Clarke",
             "author_info": "Ottawa, ON"
