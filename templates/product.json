@@ -225,7 +225,7 @@
       "name": "t:sections.featured-collection.presets.featured_collection.name",
       "settings": {
         "title": "Bundle & get up to 20% extra off!",
-        "home_featured_products": "best-sellers",
+        "home_featured_products": "sweaters-hoodies",
         "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
