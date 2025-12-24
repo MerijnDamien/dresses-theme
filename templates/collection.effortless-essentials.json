@@ -53,9 +53,9 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Whisk_d5d17f732384eb29e7047430c6a29375dr.png",
-            "image_mobile": "shopify://shop_images/OQycE27HTT-CzZLyrtzJtg.webp",
-            "parallax_direction": "left",
+            "image": "shopify://shop_images/ChatGPT_Image_Dec_24_2025_01_37_46_AM.png",
+            "image_mobile": "shopify://shop_images/ChatGPT_Image_Dec_24_2025_01_37_46_AM.png",
+            "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
@@ -81,7 +81,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Our Christmas Sale is here — and with it, a heartfelt thank you.</strong></p><p>This collection brings together our most-loved knits and everyday layers — pieces chosen for comfort, softness, and effortless wear. Designed to feel good from morning to evening, and made to be worn again and again.</p><p>These styles will not be restocked, making this a true last chance to shop your favourites while they’re still available.</p><p><strong>Extra Christmas Savings:</strong><br/><br/>– 10% extra off when you buy 2 items<br/><br/>– 15% extra off when you buy 3 items<br/><br/>– 20% extra off when you buy 4 items</p><p><em><strong>Discounts are applied automatically at checkout.</strong></em></p>"
+            "text": "<p><strong>Our Christmas Sale is here — and with it, a heartfelt thank you.</strong></p><p>Our most-loved knits and everyday layers, designed for comfort and effortless wear from morning to evening.</p><p>These styles will not be restocked, making this a true last chance to shop your favourites while they’re still available.</p><p><strong>Extra Christmas Savings:</strong><br/><br/>– 10% extra off when you buy 2 items<br/>– 15% extra off when you buy 3 items<br/>– 20% extra off when you buy 4 items</p><p><em><strong>Discounts are applied automatically at checkout.</strong></em></p>"
           }
         }
       },
