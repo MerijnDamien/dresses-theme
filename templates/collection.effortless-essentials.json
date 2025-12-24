@@ -77,22 +77,15 @@
     "rich_text_qBXxYq": {
       "type": "rich-text",
       "blocks": {
-        "heading_Tn7DQr": {
-          "type": "heading",
-          "settings": {
-            "title": "Thank You for Supporting Nora & Lily"
-          }
-        },
         "text_beT99t": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>I’m Nora — five years ago I started this little boutique to support my daughter Lilly’s dream in fashion.<br/><br/>Thanks to you, what began as a small mother-daughter project has grown into something more meaningful than we ever imagined.</p><p>Today, as we celebrate our 5-year anniversary, this sale is our way of saying thank you — for being part of our journey, our growth, and our story. ❤</p><p><strong>As a thank-you, our special anniversary bundle discounts:</strong></p><ul><li><strong>Buy 2 & Save 10% EXTRA</strong></li><li><strong>Buy 3 & Save 15% EXTRA</strong></li><li><strong>Buy 4 & Save 20% EXTRA</strong><br/></li></ul><p><em>Discounts apply automatically at checkout. Mix and match any items from our entire store.</em></p><p>With love,<br/><strong>Nora & Lilly</strong></p>"
+            "text": "<p><strong>Our Christmas Sale is here — and with it, a heartfelt thank you.</strong></p><p>This collection brings together our most-loved knits and everyday layers — pieces chosen for comfort, softness, and effortless wear. Designed to feel good from morning to evening, and made to be worn again and again.</p><p>These styles will not be restocked, making this a true last chance to shop your favourites while they’re still available.</p><p><strong>Extra Christmas Savings:</strong><br/><br/>– 10% extra off when you buy 2 items<br/><br/>– 15% extra off when you buy 3 items<br/><br/>– 20% extra off when you buy 4 items</p><p><em><strong>Discounts are applied automatically at checkout.</strong></em></p>"
           }
         }
       },
       "block_order": [
-        "heading_Tn7DQr",
         "text_beT99t"
       ],
       "settings": {
