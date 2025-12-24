@@ -152,6 +152,12 @@
             "content": "<p><strong>Our customer service is available 24/7 to answer all your questions and comments.</strong> </p><p>Whether you need advice on a product or help with an order, we are here to support you.</p><p>Don’t hesitate to contact us; we’re happy to help!</p><p>Please contact us at<strong> info@nora-lilly.com</strong></p>",
             "page": ""
           }
+        },
+        "custom_Kfbi67": {
+          "type": "custom",
+          "settings": {
+            "code": "<style>\n  .social-proof {\n    display: flex;\n    align-items: center;\n    gap: 14px;\n    font-size: 18px;\n    color: #111;\n    margin-top: 22px;\n  }\n\n  .social-proof img {\n    width: 44px;\n    height: 44px;\n    border-radius: 50%;\n    object-fit: cover;\n  }\n\n  .social-proof strong {\n    font-weight: 700;\n  }\n\n  @media (max-width: 768px) {\n    .social-proof {\n      font-size: 14px;\n    }\n\n    .social-proof img {\n      width: 38px;\n      height: 38px;\n    }\n  }\n</style>\n\n<div class=\"social-proof\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0971/5993/8396/files/8c6a0fd1890d78306b94c6817121d980_7b7d658f-0147-424a-8714-d32ecdd76df8.jpg?v=1766537208\" alt=\"Customer wearing product\">\n  <div>\n    <strong>Brenda McAllister</strong>, Sandra and <strong>14K+</strong>\n    other people are wearing <strong>Nora &amp; Lilly</strong>\n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -171,7 +177,8 @@
         "tab_YFJFMm",
         "tab_tRbXkC",
         "tab_jmMb6V",
-        "tab_NzwCzJ"
+        "tab_NzwCzJ",
+        "custom_Kfbi67"
       ],
       "custom_css": [
         ".product__price-savings {display: none !important;}",
